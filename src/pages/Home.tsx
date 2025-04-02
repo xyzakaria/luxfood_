@@ -7,6 +7,7 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 import { fetchProducts } from '../utils/api';
 import type { Product } from '../types/product';
+import Navbar from '../components/Navbar';
 
 const brands = [
   {
@@ -124,7 +125,7 @@ export default function Home() {
           </p>
           <div className="mt-10">
             <a
-              href="/products"
+              href="./products"
               className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700" // pk ca marche pas?
             >
               {t('nav.products')}
