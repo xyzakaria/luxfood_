@@ -30,7 +30,7 @@ export default function Navbar() {
               className="flex-shrink-0 flex items-center space-x-2 group"
             >
                <img 
-                src="src/public/luxfood.png" 
+                src="https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/luxfood.png" 
                 className="h-8 md:h-10" // Hauteur de 2rem (32px) par défaut, 2.5rem (40px) sur écrans moyens et +
                 alt="LuxFood Logo"
               />
