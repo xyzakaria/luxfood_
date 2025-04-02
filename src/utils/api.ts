@@ -1,6 +1,6 @@
 import type { Product } from '../types/product';
 
-const API_URL = 'http://57.129.0.154/api/data';
+const API_URL = 'https://57.129.0.154/api/data';
 
 export async function fetchProducts(): Promise<Product[]> {
   try {
