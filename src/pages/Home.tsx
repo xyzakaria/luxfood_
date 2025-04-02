@@ -125,8 +125,9 @@ export default function Home() {
           </p>
           <div className="mt-10">
             <a
-              href="./products"
-              className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700" // pk ca marche pas?
+              className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+              href="/products"
+               // pk ca marche pas?
             >
               {t('nav.products')}
               <ChevronRight className="ml-2 h-5 w-5" />
