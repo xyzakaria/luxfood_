@@ -11,9 +11,7 @@ export async function fetchProducts(): Promise<Product[]> {
     }
     
     const contentType = response.headers.get('content-type');
-    if (!contentType || !contentType.includes('application/json')) {
-      throw new Error('Invalid response format - expected JSON');
-    }
+    
 
     const data = await response.json();
     
