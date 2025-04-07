@@ -1,5 +1,4 @@
-{
-  "products" :{
+[
   {
     "id": 1,
     "category": "halawa",
@@ -11990,5 +11989,4 @@
     "description": "",
     "description_ar": ""
   }
-}
-  }
+]
