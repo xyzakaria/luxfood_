@@ -28,22 +28,22 @@ const brands = [
   },
   {
     name: "Monte Verde",
-    logo: "https://media.discordapp.net/attachments/1356725042938908712/1356730048748589239/AP1GczPVqG81M6vyUj70MrLVw3notA4Lc1GOdZ3foUYxr5cLCTMWPtR5L1wbPxFTrbTAmoE6zMW_XfoQU7NezP12ZiiJzZqnzFBgMlB3XWHBFZUKEdATrXpboUayi2Ui32hYcAadIFOIKUfGpRdSQ57IIb2zw1005-h1012-s-no-gm.png?ex=67eda0d2&is=67ec4f52&hm=e9a1195f0d3249fd13cbd05197fdd45c075d0e70fb0a49fe7672266230ced49c&=&width=637&height=641",
+    logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_monteverde.png",
     source: "google"
   },
   {
     name: "DERBY",
-    logo: "https://cdn.discordapp.com/attachments/1356725042938908712/1356731033566838994/AP1GczMdzhLfq_1HbuDl5IA8TZNJlnwIRBqG_IOM37kLywjFHCKFolPSafJMPqSTzYlf6fTbp3utUGZbIxs-yb_rc7uBUNW0Nenau_CteS7XcDTYgBAEoSXXOBWVqcuZfRviVT736neUH8peVoFshWFZWeesw822-h701-s-no-gm.png?ex=67eda1bd&is=67ec503d&hm=e89e75b62389b21b53e66ebfb755964ccacc9d5bd1758b0306ae6e53ab348cc0&",
+    logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_derby.png",
     source: "google"
   },
   {
     name: "HASEEB",
-    logo: "https://cdn.discordapp.com/attachments/1356725042938908712/1356730898715902204/AP1GczORU1qLTX5wsZWW8N0MyKr8CpvJp_19sqf_VAJ5oI6OlMYgbiyfuPhlIiFY7rhh1O00RkpEZuk_G4_FrvkbF7HZbBTF89jEsgENCA22LH84AtE22IQxxtZSfkjoz5oDZesFd4H17-yzbi2o4E-Fv18vw556-h556-s-no-gm.png?ex=67eda19d&is=67ec501d&hm=fcbf2a7c6ea1e4589a6e6e8d241e8d7438d029bbd6d31fa546a60257c5a45bd1&",
+    logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_haseeb.png",
     source: "google"
   },
   {
     name: "CHTOURA",
-    logo: "https://cdn.discordapp.com/attachments/1356725042938908712/1356733585507483659/Brands-01.png?ex=67eda41d&is=67ec529d&hm=ac3cd2e969e6cbe584f25fdd1afca37d1237129a0077fbb87e14465f7c7112e3&",
+    logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_chtoura.png",
     source: "google"
   },
   {
