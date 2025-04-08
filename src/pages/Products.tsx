@@ -93,7 +93,7 @@ export default function Products() {
             <Link
               key={product.id}
               to={`/products`}
-              className={`group ${product.stock === 0 ? 'opacity-20 cursor-not-allowed' : ''}`}
+              className={`group ${product.stock === 0 ? 'opacity-50 cursor-not-allowed' : ''}`}
               onClick={(e) => product.stock === 0 && e.preventDefault()}
             >
               <div className="relative">
