@@ -34,7 +34,8 @@ export default function Products() {
     const filtered = products.filter(product => 
       product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       t(`products.categories.${product.category}`).toLowerCase().includes(searchQuery.toLowerCase()) ||
-      (product.name_ar && i18n.language === 'ar' && product.name_ar.toLowerCase().includes(searchQuery.toLowerCase()))
+      (product.name_ar && i18n.language === 'ar' && product.name_ar.toLowerCase().includes(searchQuery.toLowerCase())) ||
+      (product.reference.includes(searchQuery))
     );
     setFilteredProducts(filtered);
   }, [searchQuery, products, t, i18n.language]);

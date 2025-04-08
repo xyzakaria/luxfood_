@@ -19,7 +19,7 @@ export async function fetchProducts(): Promise<Product[]> {
       id: item.id,
       name: item.name,
       category: item.category,
-      reference: item.reference,
+      reference: item.reference.toString(),
       image: item.image,
       description: item.description || '',
       stock: item.stock || 0
