@@ -92,7 +92,7 @@ export default function Products() {
           {filteredProducts.map((product) => (
             <Link
               key={product.id}
-              to={`/products/${product.id}`}
+              to={`/products/`}
               className={`group ${product.stock === 0 ? 'opacity-50 cursor-not-allowed' : ''}`}
               onClick={(e) => product.stock === 0 && e.preventDefault()}
             >
