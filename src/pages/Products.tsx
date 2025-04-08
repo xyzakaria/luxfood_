@@ -122,7 +122,7 @@ export default function Products() {
                 </div>
                 <div className="mt-6">
                   <h3 className="text-lg font-semibold text-gray-900">
-                    {i18n.language === 'ar' && product.name_ar ? product.name_ar : product.name_ar}
+                    {i18n.language === 'ar' && product.name_ar ? product.name_ar : product.name}
                   </h3>
                   <p className="mt-1 text-sm text-gray-500">
                     {t(`products.categories.${product.category}`)}
