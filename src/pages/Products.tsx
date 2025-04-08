@@ -92,8 +92,8 @@ export default function Products() {
           {filteredProducts.map((product) => (
             <Link
               key={product.id}
-              to={`/products/`}
-              className={`group ${product.stock === 0 ? 'opacity-50 cursor-not-allowed' : ''}`}
+              to={`/products`}
+              className={`group ${product.stock === 0 ? 'opacity-20 cursor-not-allowed' : ''}`}
               onClick={(e) => product.stock === 0 && e.preventDefault()}
             >
               <div className="relative">
@@ -122,7 +122,7 @@ export default function Products() {
                 </div>
                 <div className="mt-6">
                   <h3 className="text-lg font-semibold text-gray-900">
-                    {i18n.language === 'ar' && product.name_ar ? product.name_ar : product.name}
+                    {i18n.language === 'ar' && product.name_ar ? product.name_ar : product.name_ar}
                   </h3>
                   <p className="mt-1 text-sm text-gray-500">
                     {t(`products.categories.${product.category}`)}
