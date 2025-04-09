@@ -13,18 +13,18 @@ import type { Product } from '../types/product';
 const brands = [
   {
     name: "ABD DAIRY",
-    logo: "https://lh3.googleusercontent.com/pw/AP1GczNyYsYCzFx9gSJzKEKaXNxql7uCU67iOI2y-0JoJTJq9pZNtieYONSUwZsxw_hmWnsfM4io2KFNaN_mVbSZK2UY66wPRYwmDqPFEjMfP-Z5rdS_6RLi_cu6qxcRxDRupA_HPnT9hZsa5SvftUMq7vkf=w406-h235-s-no-gm?authuser=6",
+    logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_abd.png",
     source: "google"
   },
   {
     name: "Ahmad",
-    logo: "https://lh3.googleusercontent.com/pw/AP1GczPKdv4wk1Ji4463WuNu78jWoHzd6_sv7VoHAprCNwVMEbforXHb6tPxlmadKpMkOhX73DaP5Cr2QVbIe0DmB6YuNQDBckGZR7so-hkf9szPlZVt_qG9XAKKCQr2XYLn9ThbmwVVUD3b-lziC1MDZjRA=w1200-h675-s-no-gm?authuser=6",
+    logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_ahmad.png",
     source: "clearbit"
   },
   
   {
     name: "Al-Durra",
-    logo: "https://lh3.googleusercontent.com/pw/AP1GczM0KX-_9Ro7GaZml1RFtW4lXFWZ4F48yreWXAv5LGWM3OrHgQ5Hxb7OULcraCmbb_rLoKg6Xt3SusTa-ChJAIBs-w6HNzofKoA3XLDX0zRwjWq4zqbTXYEaPWMIXq1Yx58BlUY-9EIrgtz5r9ZTx6f5=w500-h500-s-no-gm?authuser=6",
+    logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_durra.png",
     source: "google"
   },
   {
@@ -49,37 +49,27 @@ const brands = [
   },
   {
     name: "Al Sabah",
-    logo: "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/468806796_122125816442526924_2303591284297268711_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=qCfVG5A4xLgQ7kNvgGMbIrT&_nc_oc=AdlUkH9O_SFyJveMhKOVxqxAt8LaSz4PvnznYGtxE1093TiYrne_1TUJ5AI3Y7CJzKM&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=Hb51LsaSIcHThTyDEs3gJg&oh=00_AYExGtdSP_6OU49ZhyTpggqLfCS5q6fCuRSi4Vz5IdJiqQ&oe=67F22013",
-    source: "google"
-  },
-  {
-    name: "ZINE",
-    logo: "https://cdn.discordapp.com/attachments/1356725042938908712/1356737379267907706/DELUXE_1KG-2.png?ex=67eda7a6&is=67ec5626&hm=42ce1168dfa1bae8ad38ee7b819d6716bb74cc450d76180796ea74f0cd457047&",
+    logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_sabah.png",
     source: "google"
   },
   {
     name: "Aseel",
-    logo: "https://images-ext-1.discordapp.net/external/qBceHDyp5G7y1QJLmW_O1qQRiMfbGdf4pk8pw0HrHR4/%3Fq%3Dtbn%3AANd9GcSzFiM9FyEKdC3txnOWGrbYpWoX9gDFLJOUHQ%26s/https/encrypted-tbn0.gstatic.com/images?width=246&height=246",
-    source: "google"
-  },
-  {
-    name: "KHANUM",
-    logo: "https://media.discordapp.net/attachments/1356725042938908712/1356738766898860214/408758374_122099825432073990_5237870278676429579_n.png?ex=67eda8f1&is=67ec5771&hm=dcd6380563ba4438f5e35cec3ec81b495f5610b4c074de8049435b0b324a25fe&=&width=519&height=519",
+    logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_aseel.png",
     source: "google"
   },
   {
     name: "ALSHALAN",
-    logo: "https://cdn.discordapp.com/attachments/1356725042938908712/1356739913495871731/logo_meta.png?ex=67edaa02&is=67ec5882&hm=9ed579354b5db4952b9b0ebe3eb6236c790b52f5a5cb06238901d51d0b4ae759&",
+    logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_zine_alsham.png",
     source: "google"
   },
   {
     name: "Rass El Hissan",
-    logo: "https://cdn.discordapp.com/attachments/1356725042938908712/1356740873265746092/the-ras-alhissan.png?ex=67edaae7&is=67ec5967&hm=b10992127705c1d9f21d639e34aad2a959694f37cbbf6453b5514f9cc26b8a9a&",
+    logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_ras_hissan.png",
     source: "google"
   },
   {
     name: "KHANUM",
-    logo: "https://cdn.discordapp.com/attachments/1356725042938908712/1356741391929053184/alwazah-logoal.png?ex=67edab62&is=67ec59e2&hm=7d7ee9ab55e2b2acfc8eee6a91e05bf09905ef0207098283813df2331f9de9a3&",
+    logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_Khanum.png",
     source: "google"
   },
 ];
