@@ -21,7 +21,7 @@
         "id": "3",
         "name_ar": "البرج حلاوة فستق عادي 700غ*6 قطعة",
         "reference": "100086",
-        "stock": "1 104",
+        "stock": "1104",
         "name": "alburj halva pistache 700g*6pcs",
         "category": "halava",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image100086.png"
@@ -48,7 +48,7 @@
         "id": "6",
         "name_ar": "البرج طحينة 300 غ *12 قطعة",
         "reference": "100089",
-        "stock": "1 332",
+        "stock": "1332",
         "name": "alburj tahini 300g*12pcs",
         "category": "halava",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image100089.png"
@@ -57,7 +57,7 @@
         "id": "7",
         "name_ar": "البرج حلاوة فستق 350 غ*12 قطعة",
         "reference": "100091",
-        "stock": "1 224",
+        "stock": "1224",
         "name": "alburj halva pistache 350g*12pcs",
         "category": "halava",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image100091.png"
@@ -138,7 +138,7 @@
         "id": "16",
         "name_ar": "الصباح برغل اسمر ناعم 900 غ*12 قطعة",
         "reference": "100104",
-        "stock": "1 092",
+        "stock": "1092",
         "name": "sabah boulgour brun fin 900g*12pcs",
         "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image100104.png"
@@ -147,7 +147,7 @@
         "id": "17",
         "name_ar": "الصباح برغل ابيض ناعم 900 غرام 12* قطعة",
         "reference": "100105",
-        "stock": "1 896",
+        "stock": "1896",
         "name": "sabah boulgour blanc fin 900g*12pcs",
         "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image100105.png"
@@ -174,7 +174,7 @@
         "id": "20",
         "name_ar": "توسكا شعيرية 1كغ*10قطعة",
         "reference": "100160",
-        "stock": "6 270",
+        "stock": "6270",
         "name": "tosca vermicelle 1kg*10pcs",
         "category": "pâtes",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image100160.png"
@@ -183,7 +183,7 @@
         "id": "21",
         "name_ar": "اندومي خضار 75غ * 40 قطعة",
         "reference": "100161",
-        "stock": "1 376",
+        "stock": "1376",
         "name": "indomie légume 75g*40pcs",
         "category": "pâtes",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image100161.png"
@@ -318,7 +318,7 @@
         "id": "36",
         "name_ar": "ملون طعام 25 غرام /12/",
         "reference": "100513",
-        "stock": "1 368",
+        "stock": "1368",
         "name": "colorant alimentaire 25g*12pcs",
         "category": "epices",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image100513.png"
@@ -390,7 +390,7 @@
         "id": "44",
         "name_ar": "ماريو سمسم محمص 300 غ*24قطعة",
         "reference": "101321",
-        "stock": "1 152",
+        "stock": "1152",
         "name": "mario sésame grillé 300g*24pcs",
         "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image101321.png"
@@ -561,7 +561,7 @@
         "id": "63",
         "name_ar": "الصباح فول ناشف 700 غ*10قطعة",
         "reference": "102172",
-        "stock": "1 300",
+        "stock": "1300",
         "name": "fèves séchées du alsabah 700 g /10/",
         "category": "huile d'olive",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102172.png"
@@ -633,7 +633,7 @@
         "id": "71",
         "name_ar": "الصباح برغل خشن 900 غ*12قطعة",
         "reference": "102404",
-        "stock": "1 272",
+        "stock": "1272",
         "name": "sabah boulghour gros 900 g /12/",
         "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102404.png"
@@ -705,7 +705,7 @@
         "id": "79",
         "name_ar": "فاصولية بيضاء حبة حبة ( 900 غرام ) /10/",
         "reference": "102412",
-        "stock": "1 488",
+        "stock": "1488",
         "name": "haricots habba habba 900 g /10/",
         "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102412.png"
@@ -750,7 +750,7 @@
         "id": "84",
         "name_ar": "زينة تمر هندي 250غ*80قطعة",
         "reference": "102417",
-        "stock": "1 200",
+        "stock": "1200",
         "name": "zine tamarinde 1x80x250gr",
         "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102417.png"
@@ -759,7 +759,7 @@
         "id": "85",
         "name_ar": "زدني ملوخية مجففة 200غ*12قطعة",
         "reference": "102418",
-        "stock": "10 164",
+        "stock": "10164",
         "name": "zidnee mloukhia 200g *12 pièces",
         "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102418.png"
@@ -1029,7 +1029,7 @@
         "id": "115",
         "name_ar": "اصيل سمن نباتي 0.5ليتر*24قطعة",
         "reference": "102901",
-        "stock": "1 392",
+        "stock": "1392",
         "name": "beurre végétal asil 0.5l*24pièces",
         "category": "huile d'olive",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102901.png"
@@ -1065,7 +1065,7 @@
         "id": "119",
         "name_ar": "اصيل سمن نباتي 1ليتر*12قطعة",
         "reference": "102905",
-        "stock": "1 536",
+        "stock": "1536",
         "name": "beurre végétal asil 1l*12pièces",
         "category": "huile d'olive",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102905.png"
@@ -1074,7 +1074,7 @@
         "id": "120",
         "name_ar": "زيت قلي اوكراني",
         "reference": "102906",
-        "stock": "9 405",
+        "stock": "9405",
         "name": "huile de friture",
         "category": "huile d'olive",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102906.png"
@@ -1326,7 +1326,7 @@
         "id": "148",
         "name_ar": "مفارش سفرة مزدوجة 30 متر *30",
         "reference": "103098",
-        "stock": "1 890",
+        "stock": "1890",
         "name": "nappe en plastique 30m*30",
         "category": "bazar",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image103098.png"
@@ -1362,7 +1362,7 @@
         "id": "152",
         "name_ar": "راج للعطور بخور مشكل 1*6*15",
         "reference": "103113",
-        "stock": "2 856",
+        "stock": "2856",
         "name": "raj fragrance mix bakhour 1*6*15",
         "category": "bazar",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image103113.png"
@@ -1380,7 +1380,7 @@
         "id": "154",
         "name_ar": "فحم نور كوكو اركیلة 3 كغ /5 1",
         "reference": "103115",
-        "stock": "1 050",
+        "stock": "1050",
         "name": "charbon de coco noor arkiila 3kg / 5",
         "category": "bazar",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image103115.png"
@@ -1425,7 +1425,7 @@
         "id": "159",
         "name_ar": "ليو رز مصري900غ*12قطعة",
         "reference": "103170",
-        "stock": "1 008",
+        "stock": "1008",
         "name": "riz égyptien lio 900 g /12/",
         "category": "riz",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image103170.png"
@@ -1434,7 +1434,7 @@
         "id": "160",
         "name_ar": "محمود بسمتي رز 900غ*20قطعة",
         "reference": "103171",
-        "stock": "1 900",
+        "stock": "1900",
         "name": "riz mahmoud basmati 900g*20pièces",
         "category": "riz",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image103171.png"
@@ -1578,7 +1578,7 @@
         "id": "176",
         "name_ar": "صنويت رز 4.5كغ*4قطعة",
         "reference": "103187",
-        "stock": "1 256",
+        "stock": "1256",
         "name": "sunwhite riz 4.5kg*4pièces",
         "category": "riz",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image103187.png"
@@ -1632,7 +1632,7 @@
         "id": "182",
         "name_ar": "رز الوزة سوان 900غ*20قطعة",
         "reference": "103193",
-        "stock": "1 360",
+        "stock": "1360",
         "name": "alwazah swan basmati rice 20x900gr",
         "category": "riz",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image103193.png"
@@ -1650,7 +1650,7 @@
         "id": "184",
         "name_ar": "الصباح بهارات نعناع 250 غرام",
         "reference": "103195",
-        "stock": "1 128",
+        "stock": "1128",
         "name": "sabah épices menthe 250 g",
         "category": "epices",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image103195.png"
@@ -1839,7 +1839,7 @@
         "id": "205",
         "name_ar": "حموي قهوة اكسترا 180 غ",
         "reference": "103382",
-        "stock": "1 476",
+        "stock": "1476",
         "name": "café hmoui extra b 180 g",
         "category": "café",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image103382.png"
@@ -1992,7 +1992,7 @@
         "id": "222",
         "name_ar": "حسيب قهوة هال سوبر إكسترا دهبي500غ*10قطعة",
         "reference": "103407",
-        "stock": "1 070",
+        "stock": "1070",
         "name": "haseeb koffie super extra kardemom goud 500grx10",
         "category": "café",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image103407.png"
@@ -2154,7 +2154,7 @@
         "id": "240",
         "name_ar": "سنان شامبو 250مل*14قطعة",
         "reference": "103465",
-        "stock": "2 128",
+        "stock": "2128",
         "name": "shampooing sinan 250ml *14 pièces",
         "category": "droguerie",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image103465.png"
@@ -2595,7 +2595,7 @@
         "id": "289",
         "name_ar": "مخلل خيار داماس 1000 g",
         "reference": "103563",
-        "stock": "2 148",
+        "stock": "2148",
         "name": "cornichons damas 1000 g",
         "category": "olive verte",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image103563.png"
@@ -2865,7 +2865,7 @@
         "id": "319",
         "name_ar": "ساندويش اصفر كاكاو 50غ*12ق*6علبة",
         "reference": "103593",
-        "stock": "1 818",
+        "stock": "1818",
         "name": "sandwich jaune 50g12pièces6boîtes",
         "category": "gateaux",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image103593.png"
@@ -2955,7 +2955,7 @@
         "id": "329",
         "name_ar": "نواشف حلويات مشكلة الحصري 15قطعة",
         "reference": "103603",
-        "stock": "5 277",
+        "stock": "5277",
         "name": "schoko krkse",
         "category": "gateaux",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image103603.png"
@@ -2973,7 +2973,7 @@
         "id": "331",
         "name_ar": "بسكوتو شوكو دبل شوكلا 34غ*12ق*12علبة",
         "reference": "103605",
-        "stock": "1 464",
+        "stock": "1464",
         "name": "بسكوتو شوكو دبل شوكلا 34غ*12ق*12علبة",
         "category": "gateaux",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image103605.png"
@@ -3279,7 +3279,7 @@
         "id": "365",
         "name_ar": "6x12x35gr زينة الشام معمول الهال",
         "reference": "103653",
-        "stock": "1 194",
+        "stock": "1194",
         "name": "zine alsham maamoul kardemom 6x12x35gr",
         "category": "gateaux",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image103653.png"
@@ -3288,7 +3288,7 @@
         "id": "366",
         "name_ar": "6x12x35gr زينة الشام معمول",
         "reference": "103654",
-        "stock": "2 340",
+        "stock": "2340",
         "name": "zine alsham maamoul 6x12x35gr",
         "category": "gateaux",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image103654.png"
@@ -3459,7 +3459,7 @@
         "id": "385",
         "name_ar": "لكريما كروسان 10*210غ",
         "reference": "103706",
-        "stock": "1 010",
+        "stock": "1010",
         "name": "la crema croissant 10*210g",
         "category": "gateaux",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image103706.png"
@@ -3567,7 +3567,7 @@
         "id": "397",
         "name_ar": "رز الدرة مصري 900 غرام (1*10)",
         "reference": "1078",
-        "stock": "2 560",
+        "stock": "2560",
         "name": "durra riz égyptien 900g*10",
         "category": "riz",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image1078.png"
@@ -3612,7 +3612,7 @@
         "id": "402",
         "name_ar": "كعك الحلبي بالسمسم 300 غ",
         "reference": "1086",
-        "stock": "6 160",
+        "stock": "6160",
         "name": "alepin kaak au sésame 300gr",
         "category": "kaak",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image1086.png"
@@ -3630,7 +3630,7 @@
         "id": "404",
         "name_ar": "الدرة خلطة فلافل 175غ *24ق",
         "reference": "1093",
-        "stock": "1 416",
+        "stock": "1416",
         "name": "durra falafel 175g*24p",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image1093.png"
@@ -3693,7 +3693,7 @@
         "id": "411",
         "name_ar": "الدرة حمص اكسترا طحينة 220 غرام (1*48)",
         "reference": "1272",
-        "stock": "3 840",
+        "stock": "3840",
         "name": "durra houmous extra tahina 220g*48",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image1272.png"
@@ -3738,7 +3738,7 @@
         "id": "416",
         "name_ar": "فول مدمس حار حدائق شتورة 400غ*24قطعة",
         "reference": "13749",
-        "stock": "2 136",
+        "stock": "2136",
         "name": "foul moudamas épicé hadaiq shatoura 400g*24pièces",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13749.png"
@@ -3765,7 +3765,7 @@
         "id": "419",
         "name_ar": "فول مدمس مع حمص مسلوق حدائق شتورة 475غ*24قطعة",
         "reference": "13752",
-        "stock": "3 072",
+        "stock": "3072",
         "name": "foul moudamas avec pois chiches bouillis hadaiq shatoura 475g*24pièces",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13752.png"
@@ -3792,7 +3792,7 @@
         "id": "422",
         "name_ar": "فول مدمس فلسطيني 400غ*24قطعة",
         "reference": "13755",
-        "stock": "2 688",
+        "stock": "2688",
         "name": "foul moudamas palestinien 400g*24pièces",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13755.png"
@@ -3801,7 +3801,7 @@
         "id": "423",
         "name_ar": "فول مدمس كردي حدائق شتورة 400غ*24قطعة",
         "reference": "13756",
-        "stock": "1 824",
+        "stock": "1824",
         "name": "foul moudamas kurde hadaiq shatoura 400g*24pièces",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13756.png"
@@ -3819,7 +3819,7 @@
         "id": "425",
         "name_ar": "حمص بطحينة حدائق شتورة 185غ*24قطعة",
         "reference": "13758",
-        "stock": "1 608",
+        "stock": "1608",
         "name": "houmous tahini hadaiq shatoura 185g*24pièces",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13758.png"
@@ -3837,7 +3837,7 @@
         "id": "427",
         "name_ar": "بابا غنوج حدائق شتورة 185غ*24قطعة",
         "reference": "13760",
-        "stock": "1 872",
+        "stock": "1872",
         "name": "baba ghanoush hadaiq shatoura 185g*24pièces",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13760.png"
@@ -3846,7 +3846,7 @@
         "id": "428",
         "name_ar": "بابا غنوج حدائق شتورة 370غ*24قطعة",
         "reference": "13761",
-        "stock": "1 176",
+        "stock": "1176",
         "name": "baba ghanoush hadaiq shatoura 370g*24pièces",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13761.png"
@@ -3900,7 +3900,7 @@
         "id": "434",
         "name_ar": "كتاكيت شوكو تويست biscuit chococ twist 22g 10+1",
         "reference": "13769",
-        "stock": "1 512",
+        "stock": "1512",
         "name": "twist",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13769.png"
@@ -3909,7 +3909,7 @@
         "id": "435",
         "name_ar": "فول مدمس سادة هنا 400غ*24 قطعة",
         "reference": "13770",
-        "stock": "4 032",
+        "stock": "4032",
         "name": "foul medammas nature hena 400g *24 pièces",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13770.png"
@@ -3963,7 +3963,7 @@
         "id": "441",
         "name_ar": "قشطة نسلة 170 غرام",
         "reference": "13776",
-        "stock": "1 824",
+        "stock": "1824",
         "name": "crème fouettée nestlé 170 g",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13776.png"
@@ -3990,7 +3990,7 @@
         "id": "444",
         "name_ar": "دبس بندورة اونجو",
         "reference": "13779",
-        "stock": "1 224",
+        "stock": "1224",
         "name": "oncu sauce tomato",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13779.png"
@@ -4143,7 +4143,7 @@
         "id": "461",
         "name_ar": "حمص الكسيح510 غرام",
         "reference": "13800",
-        "stock": "1 308",
+        "stock": "1308",
         "name": "houmous al-kseikh 510g",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13800.png"
@@ -4215,7 +4215,7 @@
         "id": "469",
         "name_ar": "حمص بالطحينة ابو الجود 1كغ *6",
         "reference": "13808",
-        "stock": "1 092",
+        "stock": "1092",
         "name": "hummus abo aljoud k1",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13808.png"
@@ -4296,7 +4296,7 @@
         "id": "478",
         "name_ar": "سكر ابيض 1كغ* 10",
         "reference": "13817",
-        "stock": "4 770",
+        "stock": "4770",
         "name": "sucre 1k*10",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13817.png"
@@ -4305,7 +4305,7 @@
         "id": "479",
         "name_ar": "طحين ابيض مكة 1.1كغ* 10",
         "reference": "13818",
-        "stock": "8 860",
+        "stock": "8860",
         "name": "farin maka 1.1k*10",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13818.png"
@@ -4386,7 +4386,7 @@
         "id": "488",
         "name_ar": "40x100gr كيري",
         "reference": "13839",
-        "stock": "1 000,2",
+        "stock": "1000,2",
         "name": "kiri smeerkaas 40x100gr",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13839.png"
@@ -4404,7 +4404,7 @@
         "id": "490",
         "name_ar": "24x400gr زينة فول العراق",
         "reference": "13842",
-        "stock": "2 040",
+        "stock": "2040",
         "name": "zine foul irak 24x400gr",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13842.png"
@@ -4413,7 +4413,7 @@
         "id": "491",
         "name_ar": "شهية تونة 48*160غ",
         "reference": "13852",
-        "stock": "3 168",
+        "stock": "3168",
         "name": "shahia thon 48*160g",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13852.png"
@@ -4422,7 +4422,7 @@
         "id": "492",
         "name_ar": "شهية تونة حارة 48*160غ",
         "reference": "13853",
-        "stock": "2 352",
+        "stock": "2352",
         "name": "shahia thon au piment 48*160g",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13853.png"
@@ -4431,7 +4431,7 @@
         "id": "493",
         "name_ar": "سفينة سردين 50*125غ",
         "reference": "13854",
-        "stock": "1 350",
+        "stock": "1350",
         "name": "safina sardines 50*125g",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13854.png"
@@ -4440,7 +4440,7 @@
         "id": "494",
         "name_ar": "الدرة دبس البندورة 800غ*12ق",
         "reference": "13855",
-        "stock": "3 372",
+        "stock": "3372",
         "name": "durra sauce tomate concentrée 800g*12p",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13855.png"
@@ -4449,7 +4449,7 @@
         "id": "495",
         "name_ar": "الدرة دبس البندورة زجاج 650غ*12ق",
         "reference": "13856",
-        "stock": "1 128",
+        "stock": "1128",
         "name": "durra sauce tomate concentrée 650g*12p",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13856.png"
@@ -4485,7 +4485,7 @@
         "id": "499",
         "name_ar": "مونتي فيردي فول محمس غ*24*400",
         "reference": "13866",
-        "stock": "10 776",
+        "stock": "10776",
         "name": "monte verde fèves en saumure 400gr*24",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13866.png"
@@ -4494,7 +4494,7 @@
         "id": "500",
         "name_ar": "مونتي فيردي مكدوس الباذنجان600 غ*12",
         "reference": "13867",
-        "stock": "1 812",
+        "stock": "1812",
         "name": "monte verde aubergines farcies makdous 600gr*12",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13867.png"
@@ -4503,7 +4503,7 @@
         "id": "501",
         "name_ar": "مونتي فيردي يالنجي 400غ*24",
         "reference": "13868",
-        "stock": "7 416",
+        "stock": "7416",
         "name": "monte verde feuilles de vignes yalanji 400gr*24",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13868.png"
@@ -4512,7 +4512,7 @@
         "id": "502",
         "name_ar": "مونتي فيردي حمص حب غ400*24",
         "reference": "13869",
-        "stock": "4 584",
+        "stock": "4584",
         "name": "monte verde pois chiches en saumure 400gr*24",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13869.png"
@@ -4521,7 +4521,7 @@
         "id": "503",
         "name_ar": "24*مونتي فيردي فول محمس حمص حب غ400",
         "reference": "13870",
-        "stock": "11 520",
+        "stock": "11520",
         "name": "monte verde fèves et pois chiches en saumure 400gr*24",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13870.png"
@@ -4530,7 +4530,7 @@
         "id": "504",
         "name_ar": "مونتي فيردي حمص بالطحينة380 غ*24",
         "reference": "13871",
-        "stock": "12 072",
+        "stock": "12072",
         "name": "monte verde pois chiches à la pâte de sésame 380gr*24",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13871.png"
@@ -4620,7 +4620,7 @@
         "id": "514",
         "name_ar": "الدرة بابا غنوج 380 غ * 24 ق",
         "reference": "13882",
-        "stock": "2 400",
+        "stock": "2400",
         "name": "durra baba ghanoush 380 g * 24 pièces",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13882.png"
@@ -4629,7 +4629,7 @@
         "id": "515",
         "name_ar": "الدرة باكينغ بوردرة 100 غ * 24 ق",
         "reference": "13883",
-        "stock": "1 200",
+        "stock": "1200",
         "name": "durra levure chimique 100 g * 24 p",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13883.png"
@@ -4638,7 +4638,7 @@
         "id": "516",
         "name_ar": "الدرة فانيليا 80 غ * 24 ق",
         "reference": "13884",
-        "stock": "1 200",
+        "stock": "1200",
         "name": "durra vanille 80 g * 24 p",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image13884.png"
@@ -4647,7 +4647,7 @@
         "id": "517",
         "name_ar": "الدرة جيلو فريز 85 غرام (1*48)",
         "reference": "1434",
-        "stock": "2 592",
+        "stock": "2592",
         "name": "durra jello freeze 85gr*48",
         "category": "boissons gazeuzes",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image1434.png"
@@ -4656,7 +4656,7 @@
         "id": "518",
         "name_ar": "الدرة فول سادة 400 غرام مع عرض 75 غرام (1*24)",
         "reference": "1441",
-        "stock": "2 208",
+        "stock": "2208",
         "name": "durra fèves nature 400g avec offre 75g (1*24)",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image1441.png"
@@ -4674,7 +4674,7 @@
         "id": "520",
         "name_ar": "الدرة معكرونة سباغيتي طويلة 400 غ*20",
         "reference": "1445",
-        "stock": "4 180",
+        "stock": "4180",
         "name": "durra pâtes spaghetti longues 400g*20",
         "category": "pâtes",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image1445.png"
@@ -4692,7 +4692,7 @@
         "id": "522",
         "name_ar": "الدرة معكرونة كوع 400 غ*20",
         "reference": "1458",
-        "stock": "1 120",
+        "stock": "1120",
         "name": "durra pâtes coudées 400g*20",
         "category": "pâtes",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image1458.png"
@@ -4710,7 +4710,7 @@
         "id": "524",
         "name_ar": "الدرة سميد ناعم 900غ*12ق",
         "reference": "1468",
-        "stock": "1 524",
+        "stock": "1524",
         "name": "durra semoule fin 900g*12",
         "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image1468.png"
@@ -4719,7 +4719,7 @@
         "id": "525",
         "name_ar": "الدرة سميد خشن 900غ*12ق",
         "reference": "1469",
-        "stock": "1 440",
+        "stock": "1440",
         "name": "durra semoule grosse 900g*12p",
         "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image1469.png"
@@ -4791,7 +4791,7 @@
         "id": "533",
         "name_ar": "بزر السمير مصري اكسترا 300 غرام /70/",
         "reference": "1905",
-        "stock": "1 190",
+        "stock": "1190",
         "name": "graines de tournesol al sameer égyptiennes extra 300 g /70/",
         "category": "fruits secs",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image1905.png"
@@ -5241,7 +5241,7 @@
         "id": "583",
         "name_ar": "فول مدمس مع حار هنا 400غ*24قطعة",
         "reference": "2002",
-        "stock": "1 056",
+        "stock": "1056",
         "name": "foul medammas avec piment hena 400g *24 pièces",
         "category": "conserves",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2002.png"
@@ -5412,7 +5412,7 @@
         "id": "602",
         "name_ar": "نيدو حليب 400غ *24",
         "reference": "2109",
-        "stock": "1 224",
+        "stock": "1224",
         "name": "nido lait 400g*24",
         "category": "lait en poudre",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2109.png"
@@ -5439,7 +5439,7 @@
         "id": "605",
         "name_ar": "حليبنا حليب 350غ *24",
         "reference": "2112",
-        "stock": "2 568",
+        "stock": "2568",
         "name": "halibuna lait 350g",
         "category": "lait en poudre",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2112.png"
@@ -5493,7 +5493,7 @@
         "id": "611",
         "name_ar": "تيشوب معمول السعودي 480غ 1*6",
         "reference": "2168",
-        "stock": "1 080",
+        "stock": "1080",
         "name": "teashop saudi maamoul 480g 1*6",
         "category": "gateaux",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2168.png"
@@ -5502,7 +5502,7 @@
         "id": "612",
         "name_ar": "تيشوب معمول زكريات السعودي 480غ 1*6",
         "reference": "2170",
-        "stock": "1 902",
+        "stock": "1902",
         "name": "teashop zkrayat saudi maamoul 480g 1*6",
         "category": "gateaux",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2170.png"
@@ -5799,7 +5799,7 @@
         "id": "645",
         "name_ar": "48x120gr البقرة الضاحكة 8 حبة",
         "reference": "2232",
-        "stock": "3 744",
+        "stock": "3744",
         "name": "la vache qui rit smeerkaas 8p 48x120gr",
         "category": "produits laitiers",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2232.png"
@@ -5961,7 +5961,7 @@
         "id": "663",
         "name_ar": "فينيتو مندرين 2 ليتر 1*6",
         "reference": "2293",
-        "stock": "2 238",
+        "stock": "2238",
         "name": "veneto mandarine bouteille 2 l*6",
         "category": "boissons gazeuzes",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2293.png"
@@ -6042,7 +6042,7 @@
         "id": "672",
         "name_ar": "24x330ml باربيكان رمان",
         "reference": "2317",
-        "stock": "1 104,04",
+        "stock": "1104,04",
         "name": "barbican grenade 24x330ml",
         "category": "boissons gazeuzes",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2317.png"
@@ -6060,7 +6060,7 @@
         "id": "674",
         "name_ar": "فيمتو كورديال 12*710",
         "reference": "2319",
-        "stock": "2 940",
+        "stock": "2940",
         "name": "vimto cordial bouteille verre 12*710ml",
         "category": "boissons gazeuzes",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2319.png"
@@ -6069,7 +6069,7 @@
         "id": "675",
         "name_ar": "330mlx24 فيمتو أرجواني",
         "reference": "2322",
-        "stock": "2 040,04",
+        "stock": "2040,04",
         "name": "vimto purple bottle 330mlx24",
         "category": "boissons gazeuzes",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2322.png"
@@ -6132,7 +6132,7 @@
         "id": "682",
         "name_ar": "راحة الصباح سادة 24*400غ",
         "reference": "2405",
-        "stock": "1 104",
+        "stock": "1104",
         "name": "al sabah raha nature 24*400gr",
         "category": "confiserie",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2405.png"
@@ -6141,7 +6141,7 @@
         "id": "683",
         "name_ar": "شجرة مصاص اطفال 150*150غ",
         "reference": "2406",
-        "stock": "1 350",
+        "stock": "1350",
         "name": "shajara sucette 150*150g",
         "category": "confiserie",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2406.png"
@@ -6150,7 +6150,7 @@
         "id": "684",
         "name_ar": "استاند مصاص كبير 50*50غ",
         "reference": "2407",
-        "stock": "1 750",
+        "stock": "1750",
         "name": "stande grande sucette 50*50g",
         "category": "confiserie",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2407.png"
@@ -6177,7 +6177,7 @@
         "id": "687",
         "name_ar": "مونتي فيردي صلصة دبس الرمان مل250*12",
         "reference": "2410",
-        "stock": "2 112",
+        "stock": "2112",
         "name": "monte verde mélasse de grenade 250ml*12",
         "category": "condiments et sauces",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2410.png"
@@ -6825,7 +6825,7 @@
         "id": "759",
         "name_ar": "شيبس دارنيتو نكهات 30 غرام (1*72)",
         "reference": "2680",
-        "stock": "4 032",
+        "stock": "4032",
         "name": "chips darinito saveurs 30g",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2680.png"
@@ -6870,7 +6870,7 @@
         "id": "764",
         "name_ar": "شرائح بطاطا نكهة الكتشب وينر 32 غ*24ق",
         "reference": "2685",
-        "stock": "1 176",
+        "stock": "1176",
         "name": "tranches de pommes de terre saveur ketchup winner 32g*24pièces",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2685.png"
@@ -6879,7 +6879,7 @@
         "id": "765",
         "name_ar": "شرائح بطاطا نكهة الباربكيو وينر 32غ*24ق",
         "reference": "2686",
-        "stock": "1 032",
+        "stock": "1032",
         "name": "tranches de pommes de terre saveur barbecue winner 32g*24pièces",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2686.png"
@@ -6897,7 +6897,7 @@
         "id": "767",
         "name_ar": "شرائح البطاطا نكهة الفطر وينر 15غ*48ق",
         "reference": "2688",
-        "stock": "1 296",
+        "stock": "1296",
         "name": "tranches de pommes de terre saveur champignon winner 15g*48pièces",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2688.png"
@@ -6942,7 +6942,7 @@
         "id": "772",
         "name_ar": "شرائح بطاطا نكهة الكتشب وينر 15غ*48قطعة",
         "reference": "2693",
-        "stock": "1 248",
+        "stock": "1248",
         "name": "tranches de pommes de terre saveur ketchup winner 15g*48pièces",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2693.png"
@@ -6960,7 +6960,7 @@
         "id": "774",
         "name_ar": "شرائح بطاطا نكهة الباربكيو وينر 15غ*48ق",
         "reference": "2695",
-        "stock": "1 344",
+        "stock": "1344",
         "name": "tranches de pommes de terre saveur barbecue winner 15g*48pièces",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2695.png"
@@ -7095,7 +7095,7 @@
         "id": "789",
         "name_ar": "شرائح بطاطا نكهة تبولة وينر 15غ*48 قطعة",
         "reference": "2710",
-        "stock": "1 536",
+        "stock": "1536",
         "name": "شرائح بطاطا نكهة تبولة وينر 15غ*48 قطعة",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2710.png"
@@ -7104,7 +7104,7 @@
         "id": "790",
         "name_ar": "شرائح بطاطا نكهة خل وينر 15غ*48 قطعة",
         "reference": "2711",
-        "stock": "2 736",
+        "stock": "2736",
         "name": "شرائح بطاطا نكهة خل وينر 15غ*48 قطعة",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2711.png"
@@ -7122,7 +7122,7 @@
         "id": "792",
         "name_ar": "شرائح بطاطا نكهة شطة وليمون وينر 15غ*48ق",
         "reference": "2713",
-        "stock": "2 496",
+        "stock": "2496",
         "name": "شرائح بطاطا نكهة شطة وليمون وينر 15غ*48ق",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2713.png"
@@ -7131,7 +7131,7 @@
         "id": "793",
         "name_ar": "شيبس جبنة ليون 90غ*15قطعة",
         "reference": "2714",
-        "stock": "2 580",
+        "stock": "2580",
         "name": "chips au fromage lyon 90g *15 pièces",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2714.png"
@@ -7140,7 +7140,7 @@
         "id": "794",
         "name_ar": "شيبس كتشب ليون 90غ*15قطعة",
         "reference": "2715",
-        "stock": "1 995",
+        "stock": "1995",
         "name": "chips ketchup lyon 90g *15 pièces",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2715.png"
@@ -7149,7 +7149,7 @@
         "id": "795",
         "name_ar": "شيبس ملح وخل ليون 90غ*15قطعة",
         "reference": "2716",
-        "stock": "2 400",
+        "stock": "2400",
         "name": "chips sel et vinaigre lyon 90g *15 pièces",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2716.png"
@@ -7167,7 +7167,7 @@
         "id": "797",
         "name_ar": "شيبس بابريكا ليون 90غ*15قطعة",
         "reference": "2718",
-        "stock": "1 260",
+        "stock": "1260",
         "name": "chips paprika lyon 90g *15 pièces",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2718.png"
@@ -7329,7 +7329,7 @@
         "id": "815",
         "name_ar": "ديربي اوروبي شيبس 15غ*6*18",
         "reference": "2736",
-        "stock": "2 046",
+        "stock": "2046",
         "name": "derbi europa 15g*6*18",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2736.png"
@@ -7356,7 +7356,7 @@
         "id": "818",
         "name_ar": "بفيتو شيبس حلقات حار و ليمون 50غ*24",
         "reference": "2739",
-        "stock": "1 296",
+        "stock": "1296",
         "name": "puffetto chilli & lime 50g*24",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2739.png"
@@ -7374,7 +7374,7 @@
         "id": "820",
         "name_ar": "29x24x100gr شاي سيلاني رأس الحصان",
         "reference": "2741",
-        "stock": "1 032",
+        "stock": "1032",
         "name": "horse head ceylon theabag 29x24x100gr",
         "category": "thé",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2741.png"
@@ -7491,7 +7491,7 @@
         "id": "833",
         "name_ar": "الدرة دبس رمان 1000 مل",
         "reference": "2901",
-        "stock": "1 152",
+        "stock": "1152",
         "name": "durra mélasse de grenade 1000ml",
         "category": "condiments et sauces",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2901.png"
@@ -7581,7 +7581,7 @@
         "id": "843",
         "name_ar": "مونتي فيردي مخلل خيار00 6 غ*12",
         "reference": "3007",
-        "stock": "1 368",
+        "stock": "1368",
         "name": "monte verde concombres marinés 600gr*12",
         "category": "produit en saumure",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3007.png"
@@ -7653,7 +7653,7 @@
         "id": "851",
         "name_ar": "الدرة مخلل خيار 750 غ 1*12",
         "reference": "3015",
-        "stock": "1 368",
+        "stock": "1368",
         "name": "durra pickled cucumber 75g*12",
         "category": "produit en saumure",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3015.png"
@@ -7689,7 +7689,7 @@
         "id": "855",
         "name_ar": "ورق عنب الصباح 660 غ /12/",
         "reference": "3020",
-        "stock": "1 056",
+        "stock": "1056",
         "name": "feuilles de vigne du alsabah 660 g /12/",
         "category": "produit en saumure",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3020.png"
@@ -7932,7 +7932,7 @@
         "id": "882",
         "name_ar": "الدرة قمر الدين 400غ*20",
         "reference": "3411",
-        "stock": "1 220",
+        "stock": "1220",
         "name": "durra qamar-al-din 400g*20",
         "category": "arômes",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3411.png"
@@ -7950,7 +7950,7 @@
         "id": "884",
         "name_ar": "اورجينال عصير مانغو حبيبات 24*240 مل",
         "reference": "3501",
-        "stock": "1 260",
+        "stock": "1260",
         "name": "original jus de mangue 240ml*24",
         "category": "jus",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3501.png"
@@ -7959,7 +7959,7 @@
         "id": "885",
         "name_ar": "اورجينال عصير اناناس حبيبات 24*240 مل",
         "reference": "3502",
-        "stock": "1 728",
+        "stock": "1728",
         "name": "original jus d'ananas 240*24",
         "category": "jus",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3502.png"
@@ -7968,7 +7968,7 @@
         "id": "886",
         "name_ar": "اورجينال عصير دراق حبيبات 24*240 مل",
         "reference": "3503",
-        "stock": "1 344",
+        "stock": "1344",
         "name": "original jus de pêche 240*24",
         "category": "jus",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3503.png"
@@ -7986,7 +7986,7 @@
         "id": "888",
         "name_ar": "راني عصير كوكتيل235*24",
         "reference": "3505",
-        "stock": "1 824",
+        "stock": "1824",
         "name": "rani jus cocktail 24*235",
         "category": "jus",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3505.png"
@@ -7995,7 +7995,7 @@
         "id": "889",
         "name_ar": "راني عصير أناناس 235*24",
         "reference": "3506",
-        "stock": "3 936",
+        "stock": "3936",
         "name": "rani jus ananas 24*235ml",
         "category": "jus",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3506.png"
@@ -8004,7 +8004,7 @@
         "id": "890",
         "name_ar": "راني عصير برتقال 235*24",
         "reference": "3507",
-        "stock": "4 008",
+        "stock": "4008",
         "name": "rani jus orange 24*235ml",
         "category": "jus",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3507.png"
@@ -8013,7 +8013,7 @@
         "id": "891",
         "name_ar": "راني عصير مانغو 235*24",
         "reference": "3508",
-        "stock": "3 840",
+        "stock": "3840",
         "name": "rani jus mangue 24*235ml",
         "category": "jus",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3508.png"
@@ -8040,7 +8040,7 @@
         "id": "894",
         "name_ar": "راني عصير فراولة 235*24",
         "reference": "3511",
-        "stock": "4 032",
+        "stock": "4032",
         "name": "rani fraise banane 24x235ml",
         "category": "jus",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3511.png"
@@ -8058,7 +8058,7 @@
         "id": "896",
         "name_ar": "عصير اورجينال برتقال 800مل *12",
         "reference": "3513",
-        "stock": "1 152",
+        "stock": "1152",
         "name": "original drink wortel&orang12x800ml",
         "category": "jus",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3513.png"
@@ -8067,7 +8067,7 @@
         "id": "897",
         "name_ar": "عصير اورجينال منغا 800مل *12",
         "reference": "3514",
-        "stock": "1 284",
+        "stock": "1284",
         "name": "original drink mango 800ml12st",
         "category": "jus",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3514.png"
@@ -8076,7 +8076,7 @@
         "id": "898",
         "name_ar": "عصير اورجينال جوافه 800مل *12",
         "reference": "3515",
-        "stock": "1 020",
+        "stock": "1020",
         "name": "original juice guava 800ml",
         "category": "jus",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3515.png"
@@ -8085,7 +8085,7 @@
         "id": "899",
         "name_ar": "عصير المراعي رحيق البرتقال 12*1لتر",
         "reference": "3516",
-        "stock": "1 092",
+        "stock": "1092",
         "name": "almarai jus nectare orange 1*12litres",
         "category": "jus",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3516.png"
@@ -8157,7 +8157,7 @@
         "id": "907",
         "name_ar": "ميم شريحة حنجور*12*45غ",
         "reference": "3701",
-        "stock": "4 896",
+        "stock": "4896",
         "name": "mim cire épilation *12*45gr",
         "category": "produit d'hygiène",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3701.png"
@@ -8193,7 +8193,7 @@
         "id": "911",
         "name_ar": "الدرة ملوخية 200 غ*12",
         "reference": "4001",
-        "stock": "1 668",
+        "stock": "1668",
         "name": "durra molokhia 200gr*12",
         "category": "produits secs",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image4001.png"
