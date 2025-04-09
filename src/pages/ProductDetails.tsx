@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, ImageOff } from 'lucide-react';
+import { ArrowLeft, ImageOff, ShoppingCart } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { fetchProductById } from '../utils/api';
+import { useShoppingList } from '../contexts/ShoppingListContext';
 import type { Product } from '../types/product';
 
 export default function ProductDetails() {
@@ -13,6 +14,7 @@ export default function ProductDetails() {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [imageError, setImageError] = useState(false);
+  const { dispatch } = useShoppingList();
 
   useEffect(() => {
     const loadProduct = async () => {
@@ -36,6 +38,12 @@ export default function ProductDetails() {
 
     loadProduct();
   }, [id]);
+
+  const handleAddToList = () => {
+    if (product) {
+      dispatch({ type: 'ADD_ITEM', payload: product });
+    }
+  };
 
   if (isLoading) {
     return (
@@ -117,6 +125,16 @@ export default function ProductDetails() {
                     ? product.description_ar 
                     : (product.description || 'No description available.')}
                 </p>
+              </div>
+              <div className="mt-8">
+                <button
+                  onClick={handleAddToList}
+                  disabled={product.stock === 0}
+                  className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  <ShoppingCart className="w-5 h-5 mr-2" />
+                  Add to List
+                </button>
               </div>
             </div>
           </div>

@@ -11,8 +11,8 @@ export default {
   },
   products: {
     title: 'Ürünlerimiz',
-    categories: {
-      halawa: 'Helva',
+     categories: {
+      halava: 'Helva',
       conserves: 'Konserve',
       olive_verte: 'Yeşil Zeytin',
       epices: 'Baharat',
@@ -54,4 +54,14 @@ export default {
       confitures: 'Reçel'
     },
   },
+  shoppingList: {
+    title: 'Listem',
+    empty: 'Listeniz boş',
+    clearList: 'Listeyi Temizle',
+    sendInquiry: 'Talep Gönder',
+    outOfStock: 'Stokta yok',
+    maxStockReached: 'Maksimum stok miktarına ulaşıldı',
+    inStock: 'Stokta var',
+    reference: 'REF'
+  }
 };

@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Search, ImageOff } from 'lucide-react';
+import { Search, ImageOff, ShoppingCart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { fetchProducts } from '../utils/api';
+import { useShoppingList } from '../contexts/ShoppingListContext';
 import type { Product } from '../types/product';
 
 export default function Products() {
@@ -12,6 +13,7 @@ export default function Products() {
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const { dispatch } = useShoppingList();
 
   useEffect(() => {
     const loadProducts = async () => {
@@ -34,11 +36,18 @@ export default function Products() {
     const filtered = products.filter(product => 
       product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       t(`products.categories.${product.category}`).toLowerCase().includes(searchQuery.toLowerCase()) ||
-      (product.name_ar && i18n.language === 'ar' && product.name_ar.includes(searchQuery)) ||
-      (product.reference.includes(searchQuery))
+      (product.name_ar && i18n.language === 'ar' && product.name_ar.toLowerCase().includes(searchQuery.toLowerCase())) ||
+       (product.reference.includes(searchQuery))
+                                     
     );
     setFilteredProducts(filtered);
   }, [searchQuery, products, t, i18n.language]);
+
+  const handleAddToList = (e: React.MouseEvent, product: Product) => {
+    e.preventDefault();
+    e.stopPropagation();
+    dispatch({ type: 'ADD_ITEM', payload: product });
+  };
 
   if (isLoading) {
     return (
@@ -92,7 +101,7 @@ export default function Products() {
           {filteredProducts.map((product) => (
             <Link
               key={product.id}
-              to={`/products`}
+              to={`/products/${product.id}`}
               className={`group ${product.stock === 0 ? 'opacity-50 cursor-not-allowed' : ''}`}
               onClick={(e) => product.stock === 0 && e.preventDefault()}
             >
@@ -118,6 +127,14 @@ export default function Products() {
                     <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
                       <span className="text-white font-semibold text-lg">Out of Stock</span>
                     </div>
+                  )}
+                  {product.stock > 0 && (
+                    <button
+                      onClick={(e) => handleAddToList(e, product)}
+                      className="absolute bottom-4 right-4 bg-indigo-600 text-white p-2 rounded-full shadow-lg hover:bg-indigo-700 transition-colors duration-200 opacity-0 group-hover:opacity-100"
+                    >
+                      <ShoppingCart className="h-5 w-5" />
+                    </button>
                   )}
                 </div>
                 <div className="mt-6">

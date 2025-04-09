@@ -9,10 +9,10 @@ export default {
     title: 'منتجات غذائية طازجة ولذيذة',
     subtitle: 'مكونات عالية الجودة لإبداعاتك الطهوية',
   },
-  products: {
+   products: {
     title: 'منتجاتنا',
     categories: {
-      halawa: 'حلوى',
+      halava: 'حلوى',
       conserves: 'معلبات',
       olive_verte: 'زيتون أخضر',
       epices: 'بهارات',
@@ -54,4 +54,14 @@ export default {
       confitures: 'مربيات'
     },
   },
+  shoppingList: {
+    title: 'قائمتي',
+    empty: 'قائمتك فارغة',
+    clearList: 'مسح القائمة',
+    sendInquiry: 'إرسال الطلب',
+    outOfStock: 'نفذ من المخزون',
+    maxStockReached: 'تم الوصول للحد الأقصى للمخزون',
+    inStock: 'متوفر',
+    reference: 'رقم المرجع'
+  }
 };

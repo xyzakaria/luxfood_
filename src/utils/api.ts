@@ -10,19 +10,18 @@ export async function fetchProducts(): Promise<Product[]> {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     
-    const contentType = response.headers.get('content-type');
-    
-
     const data = await response.json();
     
     return data.map((item: any) => ({
-      id: item.id,
+      id: parseInt(item.id),
       name: item.name,
+      name_ar: item.name_ar,
       category: item.category,
-      reference: item.reference.toString(),
-      image: item.image,
+      reference: item.reference,
+      image: item.image || 'https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/INA.jpg' ,
       description: item.description || '',
-      stock: item.stock || 0
+      description_ar: item.description_ar || '',
+      stock: parseInt(item.stock) || 0
     }));
   } catch (error) {
     console.error('Error fetching products:', error);
@@ -32,34 +31,26 @@ export async function fetchProducts(): Promise<Product[]> {
 
 export async function fetchProductById(id: number): Promise<Product | null> {
   try {
-    const response = await fetch(`${API_URL}/${id}`);
+    const products = await fetchProducts();
+    const product = products.find(p => p.id === id);
     
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    
-    const contentType = response.headers.get('content-type');
-    if (!contentType || !contentType.includes('application/json')) {
-      throw new Error('Invalid response format - expected JSON');
-    }
-
-    const data = await response.json();
-    
-    if (!data) {
+    if (!product) {
       return null;
     }
     
-    return {
-      id: data.id,
-      name: data.name,
-      category: data.category,
-      reference: data.reference.toString(),
-      image: data.image,
-      description: data.description || '',
-      stock: data.stock || 0
-    };
+    return product;
   } catch (error) {
     console.error('Error fetching product:', error);
     return null;
+  }
+}
+
+export async function fetchLatestProducts(): Promise<Product[]> {
+  try {
+    const products = await fetchProducts();
+    return products.sort((a, b) => b.id - a.id).slice(0, 4);
+  } catch (error) {
+    console.error('Error fetching latest products:', error);
+    return [];
   }
 }

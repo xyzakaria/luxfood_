@@ -12,7 +12,7 @@ export default {
   products: {
     title: 'Nos Produits',
     categories: {
-      halawa: 'Halawa/Confiserie',
+      halava: 'Halawa/Confiserie',
       conserves: 'Conserves',
       olive_verte: 'Olive verte',
       epices: 'Épices',
@@ -54,4 +54,14 @@ export default {
       confitures: 'Confitures'
     },
   },
+  shoppingList: {
+    title: 'Ma Liste',
+    empty: 'Votre liste est vide',
+    clearList: 'Vider la liste',
+    sendInquiry: 'Envoyer la demande',
+    outOfStock: 'Rupture de stock',
+    maxStockReached: 'Stock maximum atteint',
+    inStock: 'En stock',
+    reference: 'RÉF'
+  }
 };

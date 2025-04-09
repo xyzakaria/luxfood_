@@ -12,7 +12,7 @@ export default {
   products: {
     title: 'Our Products',
     categories: {  
-      halawa: 'Halwa',
+      halava: 'Halwa',
       conserves: 'Canned Goods',
       olive_verte: 'Green Olive',
       epices: 'Spices',
@@ -54,4 +54,25 @@ export default {
       confitures: 'Jams'
     },
   },
+  shoppingList: {
+    title: 'My List',
+    empty: 'Your list is empty',
+    clearList: 'Clear List',
+    sendInquiry: 'Send Inquiry',
+    outOfStock: 'Out of Stock',
+    maxStockReached: 'Maximum stock reached',
+    inStock: 'In Stock',
+    reference: 'REF'
+  },
+  auth: {
+    signIn: 'Sign In',
+    signUp: 'Sign Up',
+    signOut: 'Sign Out',
+    email: 'Email',
+    password: 'Password',
+    loading: 'Loading...',
+    alreadyHaveAccount: 'Already have an account? Sign in',
+    needAccount: 'Need an account? Sign up',
+    profile: 'Profile'
+  }
 };
