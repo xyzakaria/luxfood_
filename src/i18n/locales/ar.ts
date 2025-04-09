@@ -19,7 +19,7 @@ export default {
       droguerie: 'عطارة / مواد تنظيف',
       legumes_sec: 'بقوليات جافة',
       cafe: 'قهوة',
-      pates: 'معكرونة',
+      pâtes: 'معكرونة',
       gateaux: 'حلويات / كيك',
       boisson_gazeuze: 'مشروبات غازية',
       riz: 'أرز',

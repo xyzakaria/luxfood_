@@ -140,7 +140,7 @@
         "reference": "100104",
         "stock": "1 092",
         "name": "sabah boulgour brun fin 900g*12pcs",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image100104.png"
     },
     {
@@ -149,7 +149,7 @@
         "reference": "100105",
         "stock": "1 896",
         "name": "sabah boulgour blanc fin 900g*12pcs",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image100105.png"
     },
     {
@@ -248,7 +248,7 @@
         "reference": "100257",
         "stock": "216",
         "name": "al ghouta freekeh 800g*12pcs",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image100257.png"
     },
     {
@@ -329,7 +329,7 @@
         "reference": "100574",
         "stock": "228",
         "name": "mario pois chiches secs 900g*12pcs",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image100574.png"
     },
     {
@@ -392,7 +392,7 @@
         "reference": "101321",
         "stock": "1 152",
         "name": "mario sésame grillé 300g*24pcs",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image101321.png"
     },
     {
@@ -428,7 +428,7 @@
         "reference": "101597",
         "stock": "936",
         "name": "mario sésame cru 300g*24pcs",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image101597.png"
     },
     {
@@ -455,7 +455,7 @@
         "reference": "101665",
         "stock": "96",
         "name": "mario haricots 900g*12pcs",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image101665.png"
     },
     {
@@ -491,7 +491,7 @@
         "reference": "101779",
         "stock": "0",
         "name": "alsabah maïs soufflé 900g*12pcs",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image101779.png"
     },
     {
@@ -635,7 +635,7 @@
         "reference": "102404",
         "stock": "1 272",
         "name": "sabah boulghour gros 900 g /12/",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102404.png"
     },
     {
@@ -644,7 +644,7 @@
         "reference": "102405",
         "stock": "740",
         "name": "semoule grossière tosca 1kg*10pièces",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102405.png"
     },
     {
@@ -653,7 +653,7 @@
         "reference": "102406",
         "stock": "0",
         "name": "semoule moyenne tosca 1kg*10pièces",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102406.png"
     },
     {
@@ -662,7 +662,7 @@
         "reference": "102407",
         "stock": "10",
         "name": "semoule fine tosca 1kg*10pièces",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102407.png"
     },
     {
@@ -671,7 +671,7 @@
         "reference": "102408",
         "stock": "10",
         "name": "semoule très fine tosca 1kg*10pièces",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102408.png"
     },
     {
@@ -680,7 +680,7 @@
         "reference": "102409",
         "stock": "276",
         "name": "boulghour du alsabah medium 900 g /12/",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102409.png"
     },
     {
@@ -689,7 +689,7 @@
         "reference": "102410",
         "stock": "0",
         "name": "haricots mario (klawy 800g)",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102410.png"
     },
     {
@@ -698,7 +698,7 @@
         "reference": "102411",
         "stock": "324",
         "name": "lentilles vertes mario (900g) *12",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102411.png"
     },
     {
@@ -707,7 +707,7 @@
         "reference": "102412",
         "stock": "1 488",
         "name": "haricots habba habba 900 g /10/",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102412.png"
     },
     {
@@ -716,7 +716,7 @@
         "reference": "102413",
         "stock": "744",
         "name": "lentilles vertes habba habba(900g) *10",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102413.png"
     },
     {
@@ -725,7 +725,7 @@
         "reference": "102414",
         "stock": "520",
         "name": "fèves séchées du habba habba 900 g /10/",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102414.png"
     },
     {
@@ -734,7 +734,7 @@
         "reference": "102415",
         "stock": "225",
         "name": "chtoura moghrabieh 15x800gr",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102415.png"
     },
     {
@@ -743,7 +743,7 @@
         "reference": "102416",
         "stock": "640",
         "name": "zine tamarinde 1x40x500gr",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102416.png"
     },
     {
@@ -752,7 +752,7 @@
         "reference": "102417",
         "stock": "1 200",
         "name": "zine tamarinde 1x80x250gr",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102417.png"
     },
     {
@@ -761,7 +761,7 @@
         "reference": "102418",
         "stock": "10 164",
         "name": "zidnee mloukhia 200g *12 pièces",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102418.png"
     },
     {
@@ -770,7 +770,7 @@
         "reference": "102419",
         "stock": "192",
         "name": "durra gombo 75gr*12",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102419.png"
     },
     {
@@ -779,7 +779,7 @@
         "reference": "102421",
         "stock": "0",
         "name": "sabah aubergine séchée (40 pièces) /25/",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102421.png"
     },
     {
@@ -788,7 +788,7 @@
         "reference": "102422",
         "stock": "480",
         "name": "durra freekeh 450g*12p",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102422.png"
     },
     {
@@ -797,7 +797,7 @@
         "reference": "102423",
         "stock": "40",
         "name": "durra freekeh 700g*12p",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102423.png"
     },
     {
@@ -806,7 +806,7 @@
         "reference": "102424",
         "stock": "456",
         "name": "mloukhia baladna (petit 200 g) /12/",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102424.png"
     },
     {
@@ -815,7 +815,7 @@
         "reference": "102425",
         "stock": "84",
         "name": "freekeh baladna 800 g /12/",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102425.png"
     },
     {
@@ -824,7 +824,7 @@
         "reference": "102426",
         "stock": "240",
         "name": "mloukhia baladna (400 g) /6/",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102426.png"
     },
     {
@@ -833,7 +833,7 @@
         "reference": "102427",
         "stock": "876",
         "name": "baladna boulghour 900g 12",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image102427.png"
     },
     {
@@ -4712,7 +4712,7 @@
         "reference": "1468",
         "stock": "1 524",
         "name": "durra semoule fin 900g*12",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image1468.png"
     },
     {
@@ -4721,7 +4721,7 @@
         "reference": "1469",
         "stock": "1 440",
         "name": "durra semoule grosse 900g*12p",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image1469.png"
     },
     {
@@ -4730,7 +4730,7 @@
         "reference": "1470",
         "stock": "0",
         "name": "durra semoule moyenne 900g*12",
-        "category": "légumes secs",
+        "category": "legumes_sec",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image1470.png"
     },
     {

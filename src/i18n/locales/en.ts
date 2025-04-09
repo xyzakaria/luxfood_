@@ -19,7 +19,7 @@ export default {
       droguerie: 'Household Products',
       legumes_sec: 'Dried Legumes',
       cafe: 'Coffee',
-      pates: 'Pasta',
+      pâtes: 'Pasta',
       gateaux: 'Cakes',
       boisson_gazeuze: 'Soda',
       riz: 'Rice',

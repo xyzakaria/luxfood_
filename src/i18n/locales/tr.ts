@@ -19,7 +19,7 @@ export default {
       droguerie: 'Temizlik Ürünleri',
       legumes_sec: 'Kuru Bakliyat',
       cafe: 'Kahve',
-      pates: 'Makarna',
+      pâtes: 'Makarna',
       gateaux: 'Pasta/Kek',
       boisson_gazeuze: 'Gazlı İçecek',
       riz: 'Pirinç',
