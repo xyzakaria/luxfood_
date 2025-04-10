@@ -7123,7 +7123,7 @@
         "name_ar": "شرائح بطاطا نكهة شطة وليمون وينر 15غ*48ق",
         "reference": "2713",
         "stock": "2496",
-        "name": "شرائح بطاطا نكهة شطة وليمون وينر 15غ*48ق",
+        "name": "",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2713.png"
     },
@@ -7177,7 +7177,7 @@
         "name_ar": "شيبس ليز طبيعي 175 غرام - 8 ستوكس",
         "reference": "2719",
         "stock": "0",
-        "name": "شيبس ليز طبيعي 175 غرام - 8 ستوكس",
+        "name": "Chips lays natural 175g - 8 stocks",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2719.png"
     },
@@ -7186,7 +7186,7 @@
         "name_ar": "شيبس ليز sensations بابريكا حلوة حمراء*150",
         "reference": "2720",
         "stock": "0",
-        "name": "شيبس ليز sensations بابريكا حلوة حمراء*150",
+        "name": "Paprikan lays rouge sensation 150",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2720.png"
     },
@@ -7195,7 +7195,7 @@
         "name_ar": "شيبس ليز شيبس طبيعي 20 × 40 جرام",
         "reference": "2721",
         "stock": "0",
-        "name": "شيبس ليز شيبس طبيعي 20 × 40 جرام",
+        "name": "Chips lays natural 20x40g",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2721.png"
     },
@@ -7204,7 +7204,7 @@
         "name_ar": "شيبس دوريتوس فلامين هوت 10 × 160 جرام",
         "reference": "2722",
         "stock": "0",
-        "name": "شيبس دوريتوس فلامين هوت 10 × 160 جرام",
+        "name": "Chips doritos flamin hot 10x160g",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2722.png"
     },
@@ -7213,7 +7213,7 @@
         "name_ar": "شيبس شيتوس كرانشيتوس فلامين هوت - 12",
         "reference": "2723",
         "stock": "0",
-        "name": "شيبس شيتوس كرانشيتوس فلامين هوت - 12",
+        "name": "Chips cheetos crunchy flamin hot 12",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2723.png"
     },
@@ -7222,7 +7222,7 @@
         "name_ar": "شيبس دوريتوس بيتس باربيكيو بالعسل 30 ×",
         "reference": "2724",
         "stock": "0",
-        "name": "شيبس دوريتوس بيتس باربيكيو بالعسل 30 ×",
+        "name": "Chips doritos barbecue miel 30",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2724.png"
     },
@@ -7231,7 +7231,7 @@
         "name_ar": "شيبس دوريتوس فلامين هوت 20 × 44 جرام",
         "reference": "2725",
         "stock": "0",
-        "name": "شيبس دوريتوس فلامين هوت 20 × 44 جرام",
+        "name": "Chips doritos flamin hot 20x44g",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2725.png"
     },
@@ -7267,7 +7267,7 @@
         "name_ar": "روكلي جبنة 75 جم - (20 عبوة / صندوق)",
         "reference": "2729",
         "stock": "0",
-        "name": "روكلي جبنة 75 جم - (20 عبوة / صندوق)",
+        "name": "ROCKLY paprika 75g (20/box)",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2729.png"
     },
@@ -7276,7 +7276,7 @@
         "name_ar": "روكلي بابريكا 75 جم - (20 عبوة / صندوق)",
         "reference": "2730",
         "stock": "134",
-        "name": "روكلي بابريكا 75 جم - (20 عبوة / صندوق)",
+        "name": "ROCKLY paprika 75g (20/box)",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2730.png"
     },
@@ -7285,7 +7285,7 @@
         "name_ar": "روكلي سبايسي 75 جم - (20 عبوة/صندوق)",
         "reference": "2731",
         "stock": "96",
-        "name": "روكلي سبايسي 75 جم - (20 عبوة/صندوق)",
+        "name": "ROCKLY spicy 75g (20/box)",
         "category": "chips",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image2731.png"
     },
