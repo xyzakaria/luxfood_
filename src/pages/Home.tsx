@@ -146,7 +146,7 @@ export default function Home() {
       <div className="relative">
         <div className="absolute inset-0">
           <img
-            className="w-full h-[450px] object-cover"
+            className="w-full h-[458px] object-cover"
             src="https://images.unsplash.com/photo-1495195134817-aeb325a55b65?auto=format&fit=crop&w=1920&q=80"
             alt="Food background"
             fetchPriority="high"
