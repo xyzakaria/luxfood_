@@ -146,7 +146,7 @@ export default function Home() {
       <div className="relative">
         <div className="absolute inset-0">
           <img
-            className="w-full h-[600px] object-cover"
+            className="w-full h-[500px] object-cover"
             src="https://images.unsplash.com/photo-1495195134817-aeb325a55b65?auto=format&fit=crop&w=1920&q=80"
             alt="Food background"
             fetchPriority="high"
@@ -173,7 +173,7 @@ export default function Home() {
       </div>
 
       {/* Featured Products Slider */}
-      <div className="bg-white top-50 py-16">
+      <div className="bg-white  py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-gray-900 text-center mb-12">
             Featured Products
