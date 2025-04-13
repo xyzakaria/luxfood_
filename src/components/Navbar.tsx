@@ -16,6 +16,7 @@ export default function Navbar() {
   const { t, i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+  const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
   const location = useLocation();
   const { user, signOut } = useAuth();
 
@@ -26,6 +27,7 @@ export default function Navbar() {
   const handleSignOut = async () => {
     try {
       await signOut();
+      setIsProfileMenuOpen(false);
     } catch (error) {
       console.error('Error signing out:', error);
     }
@@ -43,7 +45,7 @@ export default function Navbar() {
                 className="flex-shrink-0 flex items-center space-x-2 group"
               >
                 <span className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-indigo-400 bg-clip-text text-transparent transition-all duration-300 group-hover:from-indigo-500 group-hover:to-indigo-300">
-                  LuxFood
+                  FoodCo
                 </span>
               </Link>
               <div className="hidden sm:ml-8 sm:flex sm:space-x-8">
@@ -90,21 +92,26 @@ export default function Navbar() {
               {/* Auth Button */}
               <div className="hidden sm:block">
                 {user ? (
-                  <div className="relative group">
-                    <button className="flex items-center space-x-2 bg-gray-50 rounded-lg px-3 py-1.5 transition-colors duration-200 hover:bg-gray-100">
+                  <div className="relative">
+                    <button
+                      onClick={() => setIsProfileMenuOpen(!isProfileMenuOpen)}
+                      className="flex items-center space-x-2 bg-gray-50 rounded-lg px-3 py-1.5 transition-colors duration-200 hover:bg-gray-100"
+                    >
                       <User className="h-5 w-5 text-gray-500" />
                       <span className="text-sm text-gray-600 font-medium">
-                        {t('auth.profile')}
+                        {user.email?.split('@')[0]}
                       </span>
                     </button>
-                    <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 hidden group-hover:block">
-                      <button
-                        onClick={handleSignOut}
-                        className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                      >
-                        {t('auth.signOut')}
-                      </button>
-                    </div>
+                    {isProfileMenuOpen && (
+                      <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 ring-1 ring-black ring-opacity-5">
+                        <button
+                          onClick={handleSignOut}
+                          className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        >
+                          {t('auth.signOut')}
+                        </button>
+                      </div>
+                    )}
                   </div>
                 ) : (
                   <button

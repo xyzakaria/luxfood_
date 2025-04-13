@@ -24,6 +24,7 @@ export default function ShoppingList() {
     companyName: '',
     vatNumber: ''
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
     if (user) {
@@ -49,10 +50,11 @@ export default function ShoppingList() {
 
   const handleCreateClient = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!user) return;
+    if (!user || isSubmitting) return;
 
     try {
-      const { error } = await supabase
+      setIsSubmitting(true);
+      const { data, error } = await supabase
         .from('clients')
         .insert([
           {
@@ -60,15 +62,20 @@ export default function ShoppingList() {
             company_name: clientDetails.companyName,
             vat_number: clientDetails.vatNumber
           }
-        ]);
+        ])
+        .select()
+        .single();
 
       if (error) throw error;
 
-      await fetchClients();
+      setClients([...clients, data]);
+      setSelectedClientId(data.id);
       setShowNewClientForm(false);
       setClientDetails({ companyName: '', vatNumber: '' });
     } catch (error) {
       console.error('Error creating client:', error);
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -81,6 +88,10 @@ export default function ShoppingList() {
   };
 
   const handleEmailClick = () => {
+    if (!user) {
+      // Show sign-in prompt for non-authenticated users
+      return;
+    }
     setShowEmailForm(true);
   };
 
@@ -113,7 +124,7 @@ ${itemsList}
 Please provide me with more information about availability and pricing.
 
 Best regards,
-${user?.email || 'Guest'}`);
+${user?.email}`);
 
     window.location.href = `mailto:luxfood.f@gmail.com?subject=${subject}&body=${body}`;
     setShowEmailForm(false);
@@ -218,73 +229,77 @@ ${user?.email || 'Guest'}`);
                   {!user && (
                     <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4">
                       <p className="text-yellow-700">
-                        Please sign in to use your account email and saved clients, or continue as guest.
+                        Please sign in to send inquiries and manage clients.
                       </p>
                     </div>
                   )}
                   
-                  {user && clients.length > 0 && !showNewClientForm && (
-                    <div>
-                      <label htmlFor="clientSelect" className="block text-sm font-medium text-gray-700">
-                        Select Client
-                      </label>
-                      <select
-                        id="clientSelect"
-                        value={selectedClientId}
-                        onChange={(e) => setSelectedClientId(e.target.value)}
-                        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                        required
-                      >
-                        <option value="">Select a client...</option>
-                        {clients.map(client => (
-                          <option key={client.id} value={client.id}>
-                            {client.company_name}
-                          </option>
-                        ))}
-                      </select>
-                    </div>
-                  )}
+                  {user && (
+                    <>
+                      {clients.length > 0 && !showNewClientForm && (
+                        <div>
+                          <label htmlFor="clientSelect" className="block text-sm font-medium text-gray-700">
+                            Select Client
+                          </label>
+                          <select
+                            id="clientSelect"
+                            value={selectedClientId}
+                            onChange={(e) => setSelectedClientId(e.target.value)}
+                            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                            required
+                          >
+                            <option value="">Select a client...</option>
+                            {clients.map(client => (
+                              <option key={client.id} value={client.id}>
+                                {client.company_name}
+                              </option>
+                            ))}
+                          </select>
+                        </div>
+                      )}
 
-                  {(showNewClientForm || (!user && !showNewClientForm)) && (
-                    <div className="space-y-4">
-                      <div>
-                        <label htmlFor="companyName" className="block text-sm font-medium text-gray-700">
-                          Company Name *
-                        </label>
-                        <input
-                          type="text"
-                          id="companyName"
-                          value={clientDetails.companyName}
-                          onChange={(e) => setClientDetails({...clientDetails, companyName: e.target.value})}
-                          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                          required
-                        />
-                      </div>
-                      <div>
-                        <label htmlFor="vatNumber" className="block text-sm font-medium text-gray-700">
-                          VAT Number *
-                        </label>
-                        <input
-                          type="text"
-                          id="vatNumber"
-                          value={clientDetails.vatNumber}
-                          onChange={(e) => setClientDetails({...clientDetails, vatNumber: e.target.value})}
-                          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                          required
-                        />
-                      </div>
-                    </div>
-                  )}
+                      {showNewClientForm && (
+                        <div className="space-y-4">
+                          <div>
+                            <label htmlFor="companyName" className="block text-sm font-medium text-gray-700">
+                              Company Name *
+                            </label>
+                            <input
+                              type="text"
+                              id="companyName"
+                              value={clientDetails.companyName}
+                              onChange={(e) => setClientDetails({...clientDetails, companyName: e.target.value})}
+                              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                              required
+                            />
+                          </div>
+                          <div>
+                            <label htmlFor="vatNumber" className="block text-sm font-medium text-gray-700">
+                              VAT Number *
+                            </label>
+                            <input
+                              type="text"
+                              id="vatNumber"
+                              value={clientDetails.vatNumber}
+                              onChange={(e) => setClientDetails({...clientDetails, vatNumber: e.target.value})}
+                              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                              required
+                            />
+                          </div>
+                        </div>
+                      )}
 
-                  {user && !showNewClientForm && (
-                    <button
-                      type="button"
-                      onClick={() => setShowNewClientForm(true)}
-                      className="inline-flex items-center text-sm text-indigo-600 hover:text-indigo-500"
-                    >
-                      <PlusIcon className="h-4 w-4 mr-1" />
-                      Add New Client
-                    </button>
+                      {!showNewClientForm && (
+                        <button
+                          type="button"
+                          onClick={() => setShowNewClientForm(true)}
+                          className="inline-flex items-center text-sm text-indigo-600 hover:text-indigo-500"
+                        >
+                          <PlusIcon className="h-4 w-4 mr-1" />
+                          Add New Client
+                        </button>
+                      )}
+                    </>
                   )}
 
                   <div className="flex justify-end space-x-3">
@@ -300,16 +315,18 @@ ${user?.email || 'Guest'}`);
                     </button>
                     {showNewClientForm && user ? (
                       <button
-                        type="button"
+                        type="submit"
                         onClick={handleCreateClient}
+                        disabled={isSubmitting}
                         className="bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2"
                       >
                         <PlusIcon className="h-5 w-5" />
-                        <span>Save Client</span>
+                        <span>{isSubmitting ? 'Saving...' : 'Save Client'}</span>
                       </button>
                     ) : (
                       <button
                         type="submit"
+                        disabled={!user}
                         className="bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2"
                       >
                         <Mail className="h-5 w-5" />
