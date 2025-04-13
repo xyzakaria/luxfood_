@@ -1,14 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { X, Mail, Minus, Plus, ShoppingCart } from 'lucide-react';
+import { X, Mail, Minus, Plus, ShoppingCart, Plus as PlusIcon } from 'lucide-react';
 import { useShoppingList } from '../contexts/ShoppingListContext';
 import { useAuth } from '../contexts/AuthContext';
+import { supabase } from '../utils/supabase';
+import type { Client } from '../types/client';
 
 interface ClientDetails {
   companyName: string;
-  managerName: string;
-  deliveryAddress: string;
-  phoneNumber: string;
   vatNumber: string;
 }
 
@@ -18,13 +17,60 @@ export default function ShoppingList() {
   const { user } = useAuth();
   const [isOpen, setIsOpen] = useState(false);
   const [showEmailForm, setShowEmailForm] = useState(false);
+  const [showNewClientForm, setShowNewClientForm] = useState(false);
+  const [clients, setClients] = useState<Client[]>([]);
+  const [selectedClientId, setSelectedClientId] = useState<string>('');
   const [clientDetails, setClientDetails] = useState<ClientDetails>({
     companyName: '',
-    managerName: '',
-    deliveryAddress: '',
-    phoneNumber: '',
     vatNumber: ''
   });
+
+  useEffect(() => {
+    if (user) {
+      fetchClients();
+    }
+  }, [user]);
+
+  const fetchClients = async () => {
+    if (!user) return;
+
+    try {
+      const { data, error } = await supabase
+        .from('clients')
+        .select('*')
+        .order('company_name', { ascending: true });
+
+      if (error) throw error;
+      setClients(data || []);
+    } catch (error) {
+      console.error('Error fetching clients:', error);
+    }
+  };
+
+  const handleCreateClient = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!user) return;
+
+    try {
+      const { error } = await supabase
+        .from('clients')
+        .insert([
+          {
+            user_id: user.id,
+            company_name: clientDetails.companyName,
+            vat_number: clientDetails.vatNumber
+          }
+        ]);
+
+      if (error) throw error;
+
+      await fetchClients();
+      setShowNewClientForm(false);
+      setClientDetails({ companyName: '', vatNumber: '' });
+    } catch (error) {
+      console.error('Error creating client:', error);
+    }
+  };
 
   const handleQuantityChange = (id: number, newQuantity: number, maxStock: number) => {
     if (newQuantity < 1) {
@@ -41,6 +87,7 @@ export default function ShoppingList() {
   const handleSendEmail = (e: React.FormEvent) => {
     e.preventDefault();
     
+    const selectedClient = clients.find(c => c.id === selectedClientId);
     const itemsList = state.items
       .map(item => {
         const name = i18n.language === 'ar' && item.name_ar ? item.name_ar : item.name;
@@ -54,11 +101,11 @@ export default function ShoppingList() {
 I would like to inquire about the following products for:
 
 Company Details:
+${showNewClientForm ? `
 - Company Name: ${clientDetails.companyName}
-- Manager Name: ${clientDetails.managerName}
-- Delivery Address: ${clientDetails.deliveryAddress}
-- Phone Number: ${clientDetails.phoneNumber}
-- VAT Number: ${clientDetails.vatNumber}
+- VAT Number: ${clientDetails.vatNumber}` : `
+- Company Name: ${selectedClient?.company_name}
+- VAT Number: ${selectedClient?.vat_number}`}
 
 Products List:
 ${itemsList}
@@ -99,6 +146,7 @@ ${user?.email || 'Guest'}`);
                 onClick={() => {
                   setIsOpen(false);
                   setShowEmailForm(false);
+                  setShowNewClientForm(false);
                 }}
                 className="text-gray-400 hover:text-gray-500"
               >
@@ -170,92 +218,104 @@ ${user?.email || 'Guest'}`);
                   {!user && (
                     <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4">
                       <p className="text-yellow-700">
-                        Please sign in to use your account email, or continue as guest.
+                        Please sign in to use your account email and saved clients, or continue as guest.
                       </p>
                     </div>
                   )}
-                  <div className="grid grid-cols-1 gap-4">
+                  
+                  {user && clients.length > 0 && !showNewClientForm && (
                     <div>
-                      <label htmlFor="companyName" className="block text-sm font-medium text-gray-700">
-                        Company Name *
+                      <label htmlFor="clientSelect" className="block text-sm font-medium text-gray-700">
+                        Select Client
                       </label>
-                      <input
-                        type="text"
-                        id="companyName"
-                        value={clientDetails.companyName}
-                        onChange={(e) => setClientDetails({...clientDetails, companyName: e.target.value})}
+                      <select
+                        id="clientSelect"
+                        value={selectedClientId}
+                        onChange={(e) => setSelectedClientId(e.target.value)}
                         className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                         required
-                      />
+                      >
+                        <option value="">Select a client...</option>
+                        {clients.map(client => (
+                          <option key={client.id} value={client.id}>
+                            {client.company_name}
+                          </option>
+                        ))}
+                      </select>
                     </div>
-                    <div>
-                      <label htmlFor="managerName" className="block text-sm font-medium text-gray-700">
-                        Manager Name *
-                      </label>
-                      <input
-                        type="text"
-                        id="managerName"
-                        value={clientDetails.managerName}
-                        onChange={(e) => setClientDetails({...clientDetails, managerName: e.target.value})}
-                        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                        required
-                      />
+                  )}
+
+                  {(showNewClientForm || (!user && !showNewClientForm)) && (
+                    <div className="space-y-4">
+                      <div>
+                        <label htmlFor="companyName" className="block text-sm font-medium text-gray-700">
+                          Company Name *
+                        </label>
+                        <input
+                          type="text"
+                          id="companyName"
+                          value={clientDetails.companyName}
+                          onChange={(e) => setClientDetails({...clientDetails, companyName: e.target.value})}
+                          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                          required
+                        />
+                      </div>
+                      <div>
+                        <label htmlFor="vatNumber" className="block text-sm font-medium text-gray-700">
+                          VAT Number *
+                        </label>
+                        <input
+                          type="text"
+                          id="vatNumber"
+                          value={clientDetails.vatNumber}
+                          onChange={(e) => setClientDetails({...clientDetails, vatNumber: e.target.value})}
+                          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                          required
+                        />
+                      </div>
                     </div>
-                    <div>
-                      <label htmlFor="deliveryAddress" className="block text-sm font-medium text-gray-700">
-                        Delivery Address *
-                      </label>
-                      <textarea
-                        id="deliveryAddress"
-                        value={clientDetails.deliveryAddress}
-                        onChange={(e) => setClientDetails({...clientDetails, deliveryAddress: e.target.value})}
-                        rows={3}
-                        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="phoneNumber" className="block text-sm font-medium text-gray-700">
-                        Phone Number *
-                      </label>
-                      <input
-                        type="tel"
-                        id="phoneNumber"
-                        value={clientDetails.phoneNumber}
-                        onChange={(e) => setClientDetails({...clientDetails, phoneNumber: e.target.value})}
-                        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="vatNumber" className="block text-sm font-medium text-gray-700">
-                        VAT Number *
-                      </label>
-                      <input
-                        type="text"
-                        id="vatNumber"
-                        value={clientDetails.vatNumber}
-                        onChange={(e) => setClientDetails({...clientDetails, vatNumber: e.target.value})}
-                        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                        required
-                      />
-                    </div>
-                  </div>
+                  )}
+
+                  {user && !showNewClientForm && (
+                    <button
+                      type="button"
+                      onClick={() => setShowNewClientForm(true)}
+                      className="inline-flex items-center text-sm text-indigo-600 hover:text-indigo-500"
+                    >
+                      <PlusIcon className="h-4 w-4 mr-1" />
+                      Add New Client
+                    </button>
+                  )}
+
                   <div className="flex justify-end space-x-3">
                     <button
                       type="button"
-                      onClick={() => setShowEmailForm(false)}
+                      onClick={() => {
+                        setShowEmailForm(false);
+                        setShowNewClientForm(false);
+                      }}
                       className="px-4 py-2 text-gray-600 hover:text-gray-700 font-medium"
                     >
                       Cancel
                     </button>
-                    <button
-                      type="submit"
-                      className="bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2"
-                    >
-                      <Mail className="h-5 w-5" />
-                      <span>Send Inquiry</span>
-                    </button>
+                    {showNewClientForm && user ? (
+                      <button
+                        type="button"
+                        onClick={handleCreateClient}
+                        className="bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2"
+                      >
+                        <PlusIcon className="h-5 w-5" />
+                        <span>Save Client</span>
+                      </button>
+                    ) : (
+                      <button
+                        type="submit"
+                        className="bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2"
+                      >
+                        <Mail className="h-5 w-5" />
+                        <span>Send Inquiry</span>
+                      </button>
+                    )}
                   </div>
                 </form>
               ) : (
