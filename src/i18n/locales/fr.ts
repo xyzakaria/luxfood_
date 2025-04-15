@@ -21,7 +21,7 @@ export default {
       Café: 'Café', 
       Pâtes: 'Pâtes', 
       Gateaux: 'Gâteaux', 
-      Boissons_gazeuze: 'Boisson Gazeuse', 
+      Boissons_gazeuzes: 'Boisson Gazeuse', 
       Riz: 'Riz', 
       Huile_d_olive: 'Huile D’olive', 
       Chips: 'Chips', 

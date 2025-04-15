@@ -21,7 +21,7 @@ export default {
       Café: 'Kahve', 
       Pâtes: 'Makarna', 
       Gateaux: 'Pasta/Kek', 
-      Boissons_gazeuze: 'Gazlı İçecek', 
+      Boissons_gazeuzes: 'Gazlı İçecek', 
       Riz: 'Pirinç', 
       Huile_d_olive: 'Zeytinyağı', 
       Chips: 'Cips', 

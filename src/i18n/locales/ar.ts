@@ -21,7 +21,7 @@ export default {
       Café: 'قهوة', 																
       Pâtes: 'معكرونة', 																
       Gateaux: 'حلويات / كيك', 																
-      Boissons_gazeuze: 'مشروبات غازية', 																
+      Boissons_gazeuzes: 'مشروبات غازية', 																
       Riz: 'أرز', 																
       Huile_d_olive: 'زيت زيتون', 																
       Chips: 'شيبس', 																
