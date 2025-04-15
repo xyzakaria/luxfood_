@@ -50,7 +50,7 @@ export default {
       Sucre: 'Sugar', 
       Fecule: 'Starch', 
       Makdus: 'Makdous', 
-      Produit_Secs: 'Dried Products', 
+      Produits_Secs: 'Dried Products', 
       Confitures: 'Jams'
     },
   },

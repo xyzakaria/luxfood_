@@ -50,7 +50,7 @@ export default {
       Sucre: 'سكر', 																
       Fecule: 'نشا', 																
       Makdus: 'مكدوس', 																
-      Produit_Secs: 'مواد جافة', 																
+      Produits_Secs: 'مواد جافة', 																
       Confitures: 'مربيات' 																
     },							
   },

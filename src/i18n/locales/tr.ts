@@ -50,7 +50,7 @@ export default {
       Sucre: 'Şeker', 
       Fecule: 'Nişasta', 
       Makdus: 'Makdus (Zeytinli Meze)', 
-      Produit_Secs: 'Kuru Gıda', 
+      Produits_Secs: 'Kuru Gıda', 
       Confitures: 'Reçel'
     },
   },

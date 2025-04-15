@@ -50,7 +50,7 @@ export default {
       Sucre: 'Sucre', 
       Fecule: 'Fécule', 
       Makdus: 'Makdous', 
-      Produit_Secs: 'Produits Secs', 
+      Produits_Secs: 'Produits Secs', 
       Confitures: 'Confitures'
     },
   },
