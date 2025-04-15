@@ -104,7 +104,7 @@
         "reference": "3802",
         "stock": "0",
         "name": "semoule de gâteau du alsabah 200 g /12/",
-        "category": "Farine/Sucre/Fécule",
+        "category": "Fécule",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3802.png"
     },
     {
@@ -113,7 +113,7 @@
         "reference": "3801",
         "stock": "192",
         "name": "Durra fécule de maïs 350gr*12",
-        "category": "Farine/Sucre/Fécule",
+        "category": "Fécule",
         "image": "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_articles/image3801.png"
     },
     {
