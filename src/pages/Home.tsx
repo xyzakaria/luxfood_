@@ -171,7 +171,40 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+        <div class="max-w-[1280px] mx-auto p-8 text-center">
+  <div class="relative w-screen -ml-[50vw] -mr-[50vw] left-1/2 right-1/2 bg-gray-900 overflow-hidden mb-8">
+    <div class="relative h-[300px] overflow-hidden">
+      <!-- Replace the src attributes with your image URLs -->
+      <img src="your-image-1.jpg" alt="Featured Image 1" class="slide active object-cover" />
+      <img src="your-image-2.jpg" alt="Featured Image 2" class="slide object-cover" />
+      <img src="your-image-3.jpg" alt="Featured Image 3" class="slide object-cover" />
+    </div>
+    <div class="absolute top-1/2 left-0 right-0 -translate-y-1/2 flex justify-between px-4 pointer-events-none">
+      <button class="prev-slide bg-white/30 hover:bg-white/50 text-white p-4 rounded-full cursor-pointer pointer-events-auto transition-colors">❮</button>
+      <button class="next-slide bg-white/30 hover:bg-white/50 text-white p-4 rounded-full cursor-pointer pointer-events-auto transition-colors">❯</button>
+    </div>
+  </div>
+  <div class="w-full bg-indigo-600 text-white p-4 text-center font-bold rounded-lg mb-8 shadow-md">
+    🎉 Special Event: Join us for an amazing showcase this weekend!
+  </div>
+</div>
+<div className="max-w-[1280px] mx-auto p-8 text-center">
+  <div className="relative w-screen -ml-[50vw] -mr-[50vw] left-1/2 right-1/2 bg-gray-900 overflow-hidden mb-8">
+    <div className="relative h-[300px] overflow-hidden">
+      
+      <img src="your-image-1.jpg" alt="Featured Image 1" className="slide active object-cover" />
+      <img src="your-image-2.jpg" alt="Featured Image 2" className="slide object-cover" />
+      <img src="your-image-3.jpg" alt="Featured Image 3" className="slide object-cover" />
+    </div>
+    <div className="absolute top-1/2 left-0 right-0 -translate-y-1/2 flex justify-between px-4 pointer-events-none">
+      <button className="prev-slide bg-white/30 hover:bg-white/50 text-white p-4 rounded-full cursor-pointer pointer-events-auto transition-colors">❮</button>
+      <button className="next-slide bg-white/30 hover:bg-white/50 text-white p-4 rounded-full cursor-pointer pointer-events-auto transition-colors">❯</button>
+    </div>
+  </div>
+  <div className="w-full bg-indigo-600 text-white p-4 text-center font-bold rounded-lg mb-8 shadow-md">
+    🎉 Special Event: Join us for an amazing showcase this weekend!
+  </div>
+</div>
       {/* Featured Products Slider */}
       <div className="bg-white  py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
