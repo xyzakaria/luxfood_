@@ -48,7 +48,7 @@ export default {
       Produit_d_hygiène: 'Hijyen Ürünleri',
       Farine: 'Un', 
       Sucre: 'Şeker', 
-      Fecule: 'Nişasta', 
+      Fécule: 'Nişasta', 
       Makdus: 'Makdus (Zeytinli Meze)', 
       Produits_Secs: 'Kuru Gıda', 
       Confitures: 'Reçel'

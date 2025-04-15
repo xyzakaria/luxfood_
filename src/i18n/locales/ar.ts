@@ -48,7 +48,7 @@ export default {
       Produit_d_hygiène: 'مواد نظافة', 																
       Farine: 'طحين', 																
       Sucre: 'سكر', 																
-      Fecule: 'نشا', 																
+      Fécule: 'نشا', 																
       Makdus: 'مكدوس', 																
       Produits_Secs: 'مواد جافة', 																
       Confitures: 'مربيات' 																

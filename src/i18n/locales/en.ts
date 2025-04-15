@@ -48,7 +48,7 @@ export default {
       Produit_d_hygiène: 'Hygiene Products', 
       Farine: 'Flour', 
       Sucre: 'Sugar', 
-      Fecule: 'Starch', 
+      Fécule: 'Starch', 
       Makdus: 'Makdous', 
       Produits_Secs: 'Dried Products', 
       Confitures: 'Jams'

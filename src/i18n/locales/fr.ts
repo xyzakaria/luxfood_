@@ -48,7 +48,7 @@ export default {
       Produit_d_hygiène: 'Produits D’hygiène', 
       Farine: 'Farine', 
       Sucre: 'Sucre', 
-      Fecule: 'Fécule', 
+      Fécule: 'Fécule', 
       Makdus: 'Makdous', 
       Produits_Secs: 'Produits Secs', 
       Confitures: 'Confitures'
