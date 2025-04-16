@@ -259,7 +259,7 @@ export default function Home() {
           <div className="text-white text-center w-full">
             <div className="text-5xl font-bold mb-6">Weekend Special!</div>
             <div className="text-3xl mb-8">
-              Buy 1 Get 1 Free on Selected Items
+              Special program !
             </div>
             <div className="flex justify-center gap-4">
               <Link
