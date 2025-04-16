@@ -175,7 +175,7 @@ export default function Home() {
   <div className="relative w-screen -ml-[50vw] -mr-[50vw] left-1/2 right-1/2 bg-white overflow-hidden mb-8">
     <div className="relative h-[300px] overflow-hidden">
       <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630" alt="Featured Image 1" className="slide active object-cover" />
-      <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630" alt="Featured Image 2" className="slide object-cover" />
+      <img src="https://www.shutterstock.com/image-vector/empty-nature-beach-ocean-coastal-260nw-1461440102.jpg" alt="Featured Image 2" className="slide object-cover" />
       <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630" alt="Featured Image 3" className="slide object-cover" />
     </div>
     <div className="absolute top-1/2 left-0 right-0 -translate-y-1/2 flex justify-between px-4 pointer-events-none">
