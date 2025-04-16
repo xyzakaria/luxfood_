@@ -174,9 +174,9 @@ export default function Home() {
       <div className="max-w-[1280px] mx-auto p-8 text-center">
   <div className="relative w-screen -ml-[50vw] -mr-[50vw] left-1/2 right-1/2 bg-gray-900 overflow-hidden mb-8">
     <div className="relative h-[300px] overflow-hidden">
-      <img src="your-image-1.jpg" alt="Featured Image 1" className="slide active object-cover" />
-      <img src="your-image-2.jpg" alt="Featured Image 2" className="slide object-cover" />
-      <img src="your-image-3.jpg" alt="Featured Image 3" className="slide object-cover" />
+      <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630" alt="Featured Image 1" className="slide active object-cover" />
+      <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630" alt="Featured Image 2" className="slide object-cover" />
+      <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630" alt="Featured Image 3" className="slide object-cover" />
     </div>
     <div className="absolute top-1/2 left-0 right-0 -translate-y-1/2 flex justify-between px-4 pointer-events-none">
       <button className="prev-slide bg-white/30 hover:bg-white/50 text-white p-4 rounded-full cursor-pointer pointer-events-auto transition-colors">❮</button>
