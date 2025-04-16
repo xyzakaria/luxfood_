@@ -184,7 +184,7 @@ export default function Home() {
     </div>
   </div>
   <div className="w-full bg-indigo-600 text-white p-4 text-center font-bold rounded-lg mb-8 shadow-md">
-    🎉 Special Event: Join us for an amazing showcase this weekend!
+    🎉 Special Event: Join us for this weekend!
   </div>
 </div>
 
