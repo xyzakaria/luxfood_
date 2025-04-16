@@ -21,7 +21,6 @@ const brands = [
     logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_ahmad.png",
     source: "clearbit"
   },
-  
   {
     name: "Al-Durra",
     logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_durra.png",
@@ -43,7 +42,7 @@ const brands = [
     source: "google"
   },
   {
-    name: "CHTOURA",
+    name: "Chtourra",
     logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_chtoura.png",
     source: "google"
   },
@@ -68,7 +67,7 @@ const brands = [
     source: "google"
   },
   {
-    name: "KHANUM",
+    name: "Khanum",
     logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_Khanum.png",
     source: "google"
   },
