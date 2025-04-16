@@ -12,7 +12,7 @@ import type { Product } from '../types/product';
 
 const brands = [
   {
-    name: "ABD DAIRY",
+    name: "ABD Dairy",
     logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_abd.png",
     source: "google"
   },
@@ -32,12 +32,12 @@ const brands = [
     source: "google"
   },
   {
-    name: "DERBY",
+    name: "Derby",
     logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_derby.png",
     source: "google"
   },
   {
-    name: "HASEEB",
+    name: "Haseeb",
     logo: "https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/pic_brand/image_haseeb.png",
     source: "google"
   },
