@@ -172,7 +172,7 @@ export default function Home() {
         </div>
       </div>
       <div className="max-w-[1280px] mx-auto p-8 text-center">
-  <div className="relative w-screen -ml-[50vw] -mr-[50vw] left-1/2 right-1/2 bg-gray-900 overflow-hidden mb-8">
+  <div className="relative w-screen -ml-[50vw] -mr-[50vw] left-1/2 right-1/2 bg-white overflow-hidden mb-8">
     <div className="relative h-[300px] overflow-hidden">
       <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630" alt="Featured Image 1" className="slide active object-cover" />
       <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630" alt="Featured Image 2" className="slide object-cover" />
