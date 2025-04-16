@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { ChevronRight, ImageOff, ShoppingCart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, EffectFade } from 'swiper/modules';
+import { Autoplay, EffectFade, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 import { fetchProducts, fetchLatestProducts } from '../utils/api';
@@ -172,22 +172,159 @@ export default function Home() {
         </div>
       </div>
       {/* nul */}
-      <div className="max-w-[1280px] mx-auto p-8 text-center">
-  <div className="relative w-screen -ml-[50vw] -mr-[50vw] left-1/2 right-1/2 bg-white overflow-hidden mb-8">
-    <div className="relative h-[300px] overflow-hidden">
-      <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630" alt="Featured Image 1" className="slide active object-cover" />
-      <img src="https://www.shutterstock.com/image-vector/empty-nature-beach-ocean-coastal-260nw-1461440102.jpg" alt="Featured Image 2" className="slide object-cover" />
-      <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630" alt="Featured Image 3" className="slide object-cover" />
+      {/* Promotional Slideshow Section */}
+<div className="relative w-full bg-gray-100 py-8">
+  <Swiper
+    modules={[Autoplay, Navigation, EffectFade]}
+    effect="fade"
+    speed={800}
+    autoplay={{ delay: 5000, disableOnInteraction: false }}
+    navigation={{
+      nextEl: '.promo-next',
+      prevEl: '.promo-prev',
+    }}
+    loop={true}
+    className="promo-swiper h-96 w-full"
+  >
+    {/* Slide 1 - Seasonal Sale */}
+    <SwiperSlide>
+      <div className="relative h-full w-full">
+        <img
+          src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1920&q=80"
+          alt="Seasonal Sale"
+          className="w-full h-full object-cover"
+          loading="lazy"
+        />
+        <div className="absolute inset-0 bg-black/40 flex items-center">
+          <div className="max-w-7xl mx-auto px-4 text-white text-center md:text-left">
+            <span className="bg-indigo-600 text-sm px-4 py-1 rounded-full mb-4 inline-block">
+              Limited Time Offer
+            </span>
+            <h2 className="text-4xl font-bold mb-4 drop-shadow-md">
+              Summer Sale Up to 50% Off
+            </h2>
+            <p className="text-xl mb-8 max-w-2xl drop-shadow-md">
+              Refresh your pantry with our best deals on seasonal products. 
+              Offer valid until August 31st.
+            </p>
+            <Link
+              to="/sales"
+              className="inline-flex items-center px-6 py-3 bg-white text-indigo-600 font-semibold rounded-lg hover:bg-indigo-100 transition-colors"
+            >
+              Shop Now
+              <ChevronRight className="ml-2 h-5 w-5" />
+            </Link>
+          </div>
+        </div>
+      </div>
+    </SwiperSlide>
+
+    {/* Slide 2 - New Arrivals */}
+    <SwiperSlide>
+      <div className="relative h-full w-full">
+        <img
+          src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1920&q=80"
+          alt="New Arrivals"
+          className="w-full h-full object-cover"
+          loading="lazy"
+        />
+        <div className="absolute inset-0 bg-emerald-900/70 flex items-center">
+          <div className="max-w-7xl mx-auto px-4 text-white text-center md:text-right">
+            <span className="bg-emerald-500 text-sm px-4 py-1 rounded-full mb-4 inline-block">
+              Just Launched
+            </span>
+            <h2 className="text-4xl font-bold mb-4 drop-shadow-md">
+              Discover New Arrivals
+            </h2>
+            <p className="text-xl mb-8 max-w-2xl ml-auto drop-shadow-md">
+              Explore our latest collection of international gourmet foods 
+              and exclusive imports.
+            </p>
+            <Link
+              to="/new-arrivals"
+              className="inline-flex items-center px-6 py-3 bg-white text-emerald-600 font-semibold rounded-lg hover:bg-emerald-100 transition-colors"
+            >
+              Explore New Products
+              <ChevronRight className="ml-2 h-5 w-5" />
+            </Link>
+          </div>
+        </div>
+      </div>
+    </SwiperSlide>
+
+    {/* Slide 3 - Special Promotion */}
+    <SwiperSlide>
+      <div className="relative h-full w-full bg-gradient-to-r from-purple-600 to-indigo-600">
+        <div className="max-w-7xl mx-auto px-4 h-full flex items-center">
+          <div className="text-white text-center w-full">
+            <div className="text-5xl font-bold mb-6">Weekend Special!</div>
+            <div className="text-3xl mb-8">
+              Buy 1 Get 1 Free on Selected Items
+            </div>
+            <div className="flex justify-center gap-4">
+              <Link
+                to="/promotions"
+                className="px-8 py-3 bg-white text-purple-600 rounded-lg font-semibold hover:bg-opacity-90 transition-all"
+              >
+                View Deals
+              </Link>
+              <Link
+                to="/membership"
+                className="px-8 py-3 border-2 border-white rounded-lg font-semibold hover:bg-white hover:text-purple-600 transition-all"
+              >
+                Join Membership
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </SwiperSlide>
+
+    {/* Navigation Arrows */}
+    <div className="absolute top-1/2 z-10 w-full px-4 transform -translate-y-1/2 flex justify-between pointer-events-none">
+      <button
+        aria-label="Previous slide"
+        className="promo-prev bg-white/30 hover:bg-white/50 text-white p-3 rounded-full cursor-pointer pointer-events-auto transition-colors shadow-lg"
+      >
+        ❮
+      </button>
+      <button
+        aria-label="Next slide"
+        className="promo-next bg-white/30 hover:bg-white/50 text-white p-3 rounded-full cursor-pointer pointer-events-auto transition-colors shadow-lg"
+      >
+        ❯
+      </button>
     </div>
-    <div className="absolute top-1/2 left-0 right-0 -translate-y-1/2 flex justify-between px-4 pointer-events-none">
-      <button className="prev-slide bg-white/30 hover:bg-white/50 text-white p-4 rounded-full cursor-pointer pointer-events-auto transition-colors">❮</button>
-      <button className="next-slide bg-white/30 hover:bg-white/50 text-white p-4 rounded-full cursor-pointer pointer-events-auto transition-colors">❯</button>
+
+    {/* Pagination */}
+    <div className="swiper-pagination !bottom-4 [--swiper-pagination-color:theme(colors.indigo.600)]" />
+  </Swiper>
+
+  {/* Special Event Banner */}
+  <div className="max-w-7xl mx-auto px-4 mt-8">
+    <div className="bg-gradient-to-r from-amber-500 to-orange-500 text-white p-6 rounded-xl shadow-lg flex flex-col md:flex-row items-center justify-between gap-4 hover:shadow-xl transition-shadow">
+      <div className="flex items-center gap-4">
+        <div className="bg-white/20 p-3 rounded-full">
+          <ShoppingCart className="h-8 w-8" />
+        </div>
+        <div>
+          <h3 className="text-xl font-bold">Flash Sale Ongoing!</h3>
+          <p className="text-sm opacity-90">Daily deals ending at midnight</p>
+        </div>
+      </div>
+      <Link
+        to="/flash-sale"
+        className="px-6 py-2 bg-white text-amber-600 rounded-full font-semibold flex items-center gap-2 hover:bg-amber-50 transition-colors"
+      >
+        Shop Now <ChevronRight className="h-4 w-4" />
+      </Link>
     </div>
   </div>
+</div>
   <div className="w-full bg-indigo-600 text-white p-4 text-center font-bold rounded-lg mb-8 shadow-md">
     🎉 Special Event: Join us for this weekend!
   </div>
-</div>
+
 
       {/* Featured Products Slider */}
       <div className="bg-white  py-16">
