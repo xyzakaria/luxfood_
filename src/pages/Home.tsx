@@ -171,6 +171,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* nul */}
       <div className="max-w-[1280px] mx-auto p-8 text-center">
   <div className="relative w-screen -ml-[50vw] -mr-[50vw] left-1/2 right-1/2 bg-white overflow-hidden mb-8">
     <div className="relative h-[300px] overflow-hidden">
