@@ -100,11 +100,17 @@ export default function Products() {
         <div className="grid grid-cols-1 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8">
           {filteredProducts.map((product) => (
             <Link
-              key={product.id}
-              to={`/products/${product.id}`}
-              className={`group ${product.stock === 0 ? 'opacity-50 cursor-not-allowed' : ''}`}
-              onClick={(e) => product.stock === 0 && e.preventDefault()}
-            >
+            key={product.id}
+            to={`/products/${product.id}`}
+            className={`group block p-4 border rounded-md transition-all 
+              ${product.stock === 0 ? 'opacity-50 cursor-not-allowed' : 'hover:shadow-md'}`}
+            onClick={(e) => product.stock === 0 && e.preventDefault()}
+          >
+            <h3 className="text-lg font-semibold">{product.name}</h3>
+            <p className={`mt-1 text-sm font-medium ${product.stock > 0 ? 'text-green-600' : 'text-red-600'}`}>
+              {product.stock > 0 ? 'In stock' : 'Out of stock'}
+            </p>
+          </Link>
               <div className="relative">
                 <div className="w-full h-80 bg-white rounded-2xl overflow-hidden shadow-lg transform transition-transform duration-200 group-hover:scale-105">
                   {product.image ? (
