@@ -21,7 +21,7 @@ export async function fetchProducts(): Promise<Product[]> {
       image: item.image || 'https://raw.githubusercontent.com/xyzakaria/luxfood_/refs/heads/main/src/public/INA.jpg' ,
       description: item.description || '',
       description_ar: item.description_ar || '',
-      stock: /*parseInt(item.stock)*/ 0 || 1,
+      stock: /*parseInt(item.stock)*/0 || 1
     }));
   } catch (error) {
     console.error('Error fetching products:', error);
