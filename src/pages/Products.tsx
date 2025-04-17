@@ -148,7 +148,7 @@ export default function Products() {
                     REF-{product.reference}
                   </p>
                   <p className={`mt-2 text-sm font-medium ${product.stock > 0 ? 'text-green-600' : 'text-red-600'}`}>
-                    {product.stock > 0 ? `In Stock (${product.stock})` : 'Out of Stock'}
+                    {product.stock > 0 ? `In Stock ` : 'Out of Stock'}
                   </p>
                 </div>
               </div>
