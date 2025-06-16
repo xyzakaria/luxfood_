@@ -45,7 +45,7 @@ export default function Navbar() {
                 className="flex-shrink-0 flex items-center space-x-2 group"
               >
                 <span className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-indigo-400 bg-clip-text text-transparent transition-all duration-300 group-hover:from-indigo-500 group-hover:to-indigo-300">
-                  LuxFood
+                  Luxfood
                 </span>
               </Link>
               <div className="hidden sm:ml-8 sm:flex sm:space-x-8">
