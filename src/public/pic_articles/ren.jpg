@@ -1,0 +1,7 @@
+@echo off
+setlocal enabledelayedexpansion
+
+for %%f in (*.*) do (
+    set "filename=%%~nf"
+    ren "%%f" "!filename!.jpg"
+)
