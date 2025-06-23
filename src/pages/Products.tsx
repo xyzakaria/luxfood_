@@ -148,7 +148,15 @@ export default function Products() {
                     REF-{product.reference}
                   </p>
                   <p className={`mt-2 text-sm font-medium ${product.stock > 0 ? 'text-green-600' : 'text-red-600'}`}>
-                    {product.stock > 0 ? `In Stock ` : 'Out of Stock'}
+                    {product.stock > 0 ? `${product.stock} in stock` : 'Out of stock'}
+                  </p>
+
+                  {/* Price Display */}
+                  <p className="mt-2 text-lg font-medium text-gray-600">
+                  {Number(product.price).toLocaleString('fr-FR', {
+                    style: 'currency',
+                    currency: 'EUR',
+                  })}
                   </p>
                 </div>
               </div>
