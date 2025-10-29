@@ -8,5 +8,5 @@ export interface Product {
   description?: string;
   description_ar?: string;
   stock: number;
-  price: number;
+  //price: number;
 }
