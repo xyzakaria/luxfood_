@@ -87,13 +87,35 @@ export default function ShoppingList() {
     }
   };
 
-  const handleEmailClick = () => {
-    if (!user) {
-      // Show sign-in prompt for non-authenticated users
-      return;
-    }
-    setShowEmailForm(true);
-  };
+  // 1) Remplace complètement handleEmailClick par ceci :
+const handleEmailClick = () => {
+  if (state.items.length === 0) return;
+
+  // Construire la liste des articles
+  const itemsList = state.items
+    .map(item => {
+      const name =
+        i18n.language === 'ar' && item.name_ar ? item.name_ar : item.name;
+      return `- ${name} (REF-${item.reference}) x${item.quantity}`;
+    })
+    .join('\n');
+
+  const subject = encodeURIComponent('Product Inquiry');
+  const body = encodeURIComponent(`Hello,
+
+I would like to inquire about the following products:
+
+${itemsList}
+
+Please provide me with more information about availability and pricing.
+
+Best regards,
+`);
+
+  // Ouvrir tout de suite le client mail
+  window.location.href = `mailto:luxfood.europe@gmail.com?subject=${subject}&body=${body}`;
+};
+
 
   const handleSendEmail = (e: React.FormEvent) => {
     e.preventDefault();
