@@ -21,7 +21,7 @@ export async function fetchProducts(): Promise<Product[]> {
       description: item.description || '',
       description_ar: item.description_ar || '',
       stock: parseInt(item.stock.replace(/\D/g, '')) || 0,
-      price: parseFloat(item.price.replace(',', '.')) || 0,
+      //price: parseFloat(item.price.replace(',', '.')) || 0,
     }));
   } catch (error) {
     console.error('Error fetching products:', error);
