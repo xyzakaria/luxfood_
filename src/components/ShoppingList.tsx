@@ -97,7 +97,7 @@ export default function ShoppingList() {
 
   const handleSendEmail = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     const selectedClient = clients.find(c => c.id === selectedClientId);
     const itemsList = state.items
       .map(item => {
@@ -126,7 +126,12 @@ Please provide me with more information about availability and pricing.
 Best regards,
 ${user?.email}`);
 
-    window.location.href = `mailto:luxfood.f@gmail.com?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:luxfood.europe@gmail.com?subject=${subject}&body=${body}`;
+
+    const link = document.createElement('a');
+    link.href = mailtoLink;
+    link.click();
+
     setShowEmailForm(false);
   };
 
