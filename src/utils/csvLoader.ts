@@ -6,7 +6,8 @@ export async function loadProductsFromCSV(): Promise<any[]> {
     // Skip header row and parse CSV
     const rows = csvText.split('\n').slice(1);
     return rows.map(row => {
-      const [id, category, image, price, name] = row.split(',');
+      const [id, category, image, name] = row.split(',');
+      //const [id, category, image, price, name] = row.split(',');
       return {
         id: parseInt(id),
         category,
